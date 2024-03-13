@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-Investor">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="Investor" clip-path="url(#clip-Investor)">
+    <path id="chart-svgrepo-com" d="M23,23V67.542H67.542V65.821H24.721V57.966L32.927,52.5l6.693,6.693,6.226-24.9,11.974,5.987,6.48-10.32,1.846,1.133.583-6.8-5.8,3.6,1.9,1.167-5.64,8.984L44.7,31.787,38.687,55.823l-5.542-5.542L24.721,55.9V23Z" transform="translate(-20.271 -20.271)" fill="#e63036"/>
+  </g>
+</svg>
