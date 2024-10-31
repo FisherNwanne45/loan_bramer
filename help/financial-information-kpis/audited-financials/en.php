@@ -17,7 +17,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta name="description" content="Commercial Credit and Finance PLC is a leading finance company in Sri Lanka whose purpose is uplifting the lives of people with simple act of love.">
+<meta name="description" content="<?php echo $row['name']; ?> and Finance PLC is a leading finance company in Sri Lanka whose purpose is uplifting the lives of people with simple act of love.">
 
 <meta name="title" content="">
 
@@ -51,7 +51,7 @@
 
 
 
-    <title>Download - Commercial Credit &amp; Finance PLC</title>
+    <title>Download - <?php echo $row['name']; ?> &amp; Finance PLC</title>
 
 
 
@@ -59,13 +59,13 @@
 
 
 
-    <meta property="og:title" content="Commercial Credit & Finance PLC" />
+    <meta property="og:title" content="<?php echo $row['name']; ?> & Finance PLC" />
 
     <meta property="og:type" content="website" />
 
-    <meta property="og:site_name" content="Commercial Credit & Finance PLC" />
+    <meta property="og:site_name" content="<?php echo $row['name']; ?> & Finance PLC" />
 
-    <meta property="og:description" content="Commercial Credit and Finance PLC is a leading finance company in Sri Lanka whose purpose is uplifting the lives of people with simple act of love." />
+    <meta property="og:description" content="<?php echo $row['name']; ?> and Finance PLC is a leading finance company in Sri Lanka whose purpose is uplifting the lives of people with simple act of love." />
 
     <meta property="og:url" content="../../../index.html" />
 
@@ -77,11 +77,11 @@
 
     <meta property="og:image:height" content="630" />
 
-    <meta name="twitter:card" content="Commercial Credit & Finance PLC">
-    <meta name="twitter:site" content="Commercial Credit & Finance PLC">
-    <meta name="twitter:title" content="Commercial Credit & Finance PLC">
-    <meta name="twitter:description" content="Commercial Credit and Finance PLC is a leading finance company in Sri Lanka whose purpose is uplifting the lives of people with simple act of love.">
-    <meta name="twitter:creator" content="Commercial Credit & Finance PLC">
+    <meta name="twitter:card" content="<?php echo $row['name']; ?> & Finance PLC">
+    <meta name="twitter:site" content="<?php echo $row['name']; ?> & Finance PLC">
+    <meta name="twitter:title" content="<?php echo $row['name']; ?> & Finance PLC">
+    <meta name="twitter:description" content="<?php echo $row['name']; ?> and Finance PLC is a leading finance company in Sri Lanka whose purpose is uplifting the lives of people with simple act of love.">
+    <meta name="twitter:creator" content="<?php echo $row['name']; ?> & Finance PLC">
     <meta name="twitter:image" content="../../../frontend/img/og-cc.png">
 
 
@@ -638,7 +638,7 @@
 
 
 
-                      <h5>Commercial Credit & Finance PLC.</h5>
+                      <h5><?php echo $row['name']; ?> & Finance PLC.</h5>
 
 
 
@@ -646,7 +646,7 @@
 
 
 
-                      <p>Commercial Credit and Finance PLC was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in Sri Lanka’s hill capital, Kandy, as Commercial Credit (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as Commercial Credit Ltd.</p>
+                      <p><?php echo $row['name']; ?> and Finance PLC was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in Sri Lanka’s hill capital, Kandy, as <?php echo $row['name']; ?> (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as <?php echo $row['name']; ?> Ltd.</p>
 
 
 
@@ -1244,7 +1244,7 @@
 
 
 
-                      <h5>Commercial Credit & Finance PLC.</h5>
+                      <h5><?php echo $row['name']; ?> & Finance PLC.</h5>
 
 
 
@@ -1252,7 +1252,7 @@
 
 
 
-                      <p>Commercial Credit and Finance PLC was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in Sri Lanka’s hill capital, Kandy, as Commercial Credit (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as Commercial Credit Ltd.</p>
+                      <p><?php echo $row['name']; ?> and Finance PLC was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in Sri Lanka’s hill capital, Kandy, as <?php echo $row['name']; ?> (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as <?php echo $row['name']; ?> Ltd.</p>
 
 
 
@@ -2569,7 +2569,7 @@
 
             <p class="pt-2">
 
-              Commercial Credit and Finance PLC, a well-established brand in the Financial Services Industry of Sri Lanka, has been one of the most sorted out financial service providers for the past decade.
+              <?php echo $row['name']; ?> and Finance PLC, a well-established brand in the Financial Services Industry of Sri Lanka, has been one of the most sorted out financial service providers for the past decade.
 
               
 
@@ -2733,7 +2733,7 @@
 
                 <li><i class="far fa-envelope-open"></i><a href="mailTo:ccl@cclk.lk"><span class="__cf_email__" data-cfemail="7714141b3714141b1c591b1c">[email&#160;protected]</span></a></li>
 
-              <!--<li><i class="fas fa-map-marker-alt"></i> <a href="#">Commercial Credit & Finance PLC-->
+              <!--<li><i class="fas fa-map-marker-alt"></i> <a href="#"><?php echo $row['name']; ?> & Finance PLC-->
 
               <!--  No.165 Kynsey Rd, Borella,<br>-->
 
@@ -2741,7 +2741,7 @@
 
                 <li><i class="fas fa-map-marker-alt"></i> <a target="_blank" href="https://www.google.com/maps?client=firefox-b-d&amp;q=commercial+credit+borella&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwivtMOawuHlAhWEiHAKHap1B9kQ_AUIESgB">
 
-                  Commercial Credit & Finance PLC<br />
+                  <?php echo $row['name']; ?> & Finance PLC<br />
 No.165, Kynsey Rd, Borella,<br />
 Colombo 08, Sri Lanka
 
@@ -2761,7 +2761,7 @@ Colombo 08, Sri Lanka
 
               <strong><i class="far fa-envelope-open"></i></strong> ccl@cclk.lk<br>
 
-              <strong><i class="fas fa-map-marker-alt"></i></strong>Commercial Credit & Finance PLC
+              <strong><i class="fas fa-map-marker-alt"></i></strong><?php echo $row['name']; ?> & Finance PLC
 
               No.165 Kynsey Rd, Borella,<br>
 
@@ -2875,7 +2875,7 @@ Colombo 08, Sri Lanka
 
        
 
-        &copy; Copyright <strong><span>Commercial Credit & Finance PLC</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span><?php echo $row['name']; ?> & Finance PLC</span></strong>. All Rights Reserved
 
       </div>
 
@@ -2982,7 +2982,7 @@ Colombo 08, Sri Lanka
       {
         "@context":"http://schema.org",
         "@type":"Organization",
-        "name":"Commercial Credit and Finance PLC",
+        "name":"<?php echo $row['name']; ?> and Finance PLC",
         "url":"https://www.cclk.lk",
         "address":"No.165, Kynsey Rd, Borella, Colombo 08, Sri Lanka.",
         "sameAs":["https://www.facebook.com/comcreditlk","https://www.instagram.com/commercialcredit_/","https://lk.linkedin.com/company/commercial-credit-limited","https://youtube.com/channel/UC6Rw7R8REmTE0p3OTXAfyCg"]}

@@ -636,7 +636,7 @@ include('../resources/config.php');
 
 
 
-                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as Commercial Credit (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as Commercial Credit Ltd.</p>
+                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as <?php echo $row['name']; ?> (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as <?php echo $row['name']; ?> Ltd.</p>
 
 
 
@@ -1255,7 +1255,7 @@ include('../resources/config.php');
 
 
 
-                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as Commercial Credit (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as Commercial Credit Ltd.</p>
+                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as <?php echo $row['name']; ?> (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as <?php echo $row['name']; ?> Ltd.</p>
 
 
 
@@ -2424,7 +2424,7 @@ include('../resources/config.php');
             </div>
         </section>
 
-        <!-- commercial credit location 
+        <!-- <?php echo $row['name']; ?> location 
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18840.965692473357!2d79.85502087523814!3d6.911501968689908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x46c8479c38f02dfc!2sCommercial%20Credit%20%26%20Finance%20PLC%2C%20City%20Office!5e0!3m2!1sen!2slk!4v1631275343233!5m2!1sen!2slk" style="width:100%;height:450px;border: 0" allowfullscreen="" loading="lazy"></iframe>-->
 

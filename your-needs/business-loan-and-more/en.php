@@ -625,7 +625,7 @@ include('../../resources/config.php');
 
 
 
-                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as Commercial Credit (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as Commercial Credit Ltd.</p>
+                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as <?php echo $row['name']; ?> (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as <?php echo $row['name']; ?> Ltd.</p>
 
 
 
@@ -1231,7 +1231,7 @@ include('../../resources/config.php');
 
 
 
-                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as Commercial Credit (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as Commercial Credit Ltd.</p>
+                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as <?php echo $row['name']; ?> (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as <?php echo $row['name']; ?> Ltd.</p>
 
 
 
@@ -2243,7 +2243,7 @@ include('../../resources/config.php');
            <div class="col-md-6 pl-0 pr-md-2 p-0">
                 <h4>Business Loan and More?</h4>
                 <p>Are you running a business? Perhaps your cash flow may not run along with your business as it is supposed to be. If you are willing to run a successful business enterprise, it is wise to have a financial service provider to support you with short term financial needs. <br />
-We, Commercial Credit here to provide you with the simplest solution to cover any nature of business expenses. We can provide you with quick working capital in no time. All you have to do is to open a current account in the bank and become eligible</p>
+We, <?php echo $row['name']; ?> here to provide you with the simplest solution to cover any nature of business expenses. We can provide you with quick working capital in no time. All you have to do is to open a current account in the bank and become eligible</p>
             </div>
 
             <div class="col-md-6 text-center pl-0 pr-md-2 p-0 md-imgSize">
@@ -2259,7 +2259,7 @@ We, Commercial Credit here to provide you with the simplest solution to cover an
                 
                 <h4>Business Loan and More?</h4>
                 <p>Are you running a business? Perhaps your cash flow may not run along with your business as it is supposed to be. If you are willing to run a successful business enterprise, it is wise to have a financial service provider to support you with short term financial needs. <br />
-We, Commercial Credit here to provide you with the simplest solution to cover any nature of business expenses. We can provide you with quick working capital in no time. All you have to do is to open a current account in the bank and become eligible</p>
+We, <?php echo $row['name']; ?> here to provide you with the simplest solution to cover any nature of business expenses. We can provide you with quick working capital in no time. All you have to do is to open a current account in the bank and become eligible</p>
             </div>
 
             <div class="col-md-6 text-center pl-0 pr-md-2 p-0 md-imgSize">

@@ -625,7 +625,7 @@ include('../../resources/config.php');
 
 
 
-                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as Commercial Credit (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as Commercial Credit Ltd.</p>
+                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as <?php echo $row['name']; ?> (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as <?php echo $row['name']; ?> Ltd.</p>
 
 
 
@@ -1231,7 +1231,7 @@ include('../../resources/config.php');
 
 
 
-                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as Commercial Credit (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as Commercial Credit Ltd.</p>
+                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as <?php echo $row['name']; ?> (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as <?php echo $row['name']; ?> Ltd.</p>
 
 
 
@@ -2241,8 +2241,8 @@ include('../../resources/config.php');
             <p>Leasing facilities let you purchase your dream vehicle.  Come to the leading finance company in <?php echo $row['country']; ?> and select the best leasing option for you.</p>
            <div class="col-md-6 pl-0 pr-md-2 p-0">
                 <h4>Need a Leasing?</h4>
-                <p>Are you searching for the best place to get a leasing facility to purchase your dream vehicle? Commercial Credit has diversified leasing options to meet your requirements. <br />
-Go to the nearest Commercial Credit branch to make your vehicle dream a reality with a fast and efficient service. Commercial Credit family is always ready to assist you to give you the best leasing experience.</p>
+                <p>Are you searching for the best place to get a leasing facility to purchase your dream vehicle? <?php echo $row['name']; ?> has diversified leasing options to meet your requirements. <br />
+Go to the nearest <?php echo $row['name']; ?> branch to make your vehicle dream a reality with a fast and efficient service. <?php echo $row['name']; ?> family is always ready to assist you to give you the best leasing experience.</p>
             </div>
 
             <div class="col-md-6 text-center pl-0 pr-md-2 p-0 md-imgSize">
@@ -2257,8 +2257,8 @@ Go to the nearest Commercial Credit branch to make your vehicle dream a reality 
                 <p>Leasing facilities let you purchase your dream vehicle.  Come to the leading finance company in <?php echo $row['country']; ?> and select the best leasing option for you.</p>
                 
                 <h4>Need a Leasing?</h4>
-                <p>Are you searching for the best place to get a leasing facility to purchase your dream vehicle? Commercial Credit has diversified leasing options to meet your requirements. <br />
-Go to the nearest Commercial Credit branch to make your vehicle dream a reality with a fast and efficient service. Commercial Credit family is always ready to assist you to give you the best leasing experience.</p>
+                <p>Are you searching for the best place to get a leasing facility to purchase your dream vehicle? <?php echo $row['name']; ?> has diversified leasing options to meet your requirements. <br />
+Go to the nearest <?php echo $row['name']; ?> branch to make your vehicle dream a reality with a fast and efficient service. <?php echo $row['name']; ?> family is always ready to assist you to give you the best leasing experience.</p>
             </div>
 
             <div class="col-md-6 text-center pl-0 pr-md-2 p-0 md-imgSize">
