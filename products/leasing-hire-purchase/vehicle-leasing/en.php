@@ -48,7 +48,7 @@ include('../../../resources/config.php');
 
     
 
-    <meta name="keywords" content="leading finance company in <?php echo $row['country']; ?>, fixed deposits, vehicle leasing, buy a vehicle, get a loan, fixed deposit rates">
+    <meta name="keywords" content="leading finance company in <?php echo $row['country']; ?>, Funds managements, vehicle leasing, buy a vehicle, get a loan, Funds management rates">
 
     
 
@@ -328,47 +328,7 @@ include('../../../resources/config.php');
 
 
 
-            <form class="d-flex" action="search-result/en" method="get">
-
-
-
-              
-
-
-
-              <div class="input-group search-main">
-
-
-
-
-
-
-
-                  <input class="form-control border-0 mr-2" value="" required minlength="4" name="keywords" type="search" placeholder="Search" aria-label="Search">
-
-
-
-
-
-
-
-                  <button class="btn btn-primary " type="submit"><i class="fas fa-search"></i></button>
-
-
-
-
-
-
-
-              </div>
-
-
-
-
-
-
-
-          </form>
+            
 
 
 
@@ -1354,7 +1314,7 @@ include('../../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../../products/deposits/fixed-deposit/en.php">Fixed Deposit</a>
+                              <a class="sub-links " href="../../../products/deposits/fixed-deposit/en.php">Funds management</a>
 
 
 
@@ -1613,7 +1573,7 @@ include('../../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../../products/loan/educational-loans/en.php">Educational Loans</a>
+                              <a class="sub-links " href="../../../products/loan/capital-investment-fund/en.php">Capital Investment Fund</a>
 
 
 
@@ -1628,7 +1588,7 @@ include('../../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../../products/loan/gold-loan/en.php">Gold Loan</a>
+                              <a class="sub-links " href="../../../products/loan/start-up/en.php">Start up Loans</a>
 
 
 
@@ -1745,7 +1705,7 @@ include('../../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../../products/microfinance/micro-loan/en.php">Micro Loan</a>
+                              <a class="sub-links " href="../../../products/microfinance/micro-loan/en.php">Debt Refinance</a>
 
 
 
@@ -1760,7 +1720,7 @@ include('../../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../../products/microfinance/sme-loan/en.php">SME Loan</a>
+                              <a class="sub-links " href="../../../products/microfinance/sme-loan/en.php">Personal Loans</a>
 
 
 
@@ -2424,7 +2384,7 @@ If you are acquiring a brand new vehicle or a used vehicle, our leasing faciliti
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/deposits/fixed-deposit/en.php">Fixed Deposit</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/deposits/fixed-deposit/en.php">Funds management</a></li> 
 
                 
                 
@@ -2450,7 +2410,7 @@ If you are acquiring a brand new vehicle or a used vehicle, our leasing faciliti
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/loan/educational-loans/en.php">Educational Loans</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/loan/capital-investment-fund/en.php">Capital Investment Fund</a></li> 
 
                 
                 
@@ -2463,7 +2423,7 @@ If you are acquiring a brand new vehicle or a used vehicle, our leasing faciliti
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/microfinance/micro-loan/en.php">Micro Loan</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/microfinance/micro-loan/en.php">Debt Refinance</a></li> 
 
                 
                 

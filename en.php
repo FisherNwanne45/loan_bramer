@@ -48,7 +48,7 @@ include('resources/config.php');
 
     
 
-    <meta name="keywords" content="leading finance company in <?php echo $row['country']; ?>, fixed deposits, vehicle leasing, buy a vehicle, get a loan, fixed deposit rates">
+    <meta name="keywords" content="leading finance company in <?php echo $row['country']; ?>, Funds managements, vehicle leasing, buy a vehicle, get a loan, Funds management rates">
 
     
 
@@ -328,47 +328,7 @@ include('resources/config.php');
 
 
 
-            <form class="d-flex" action="search-result/en" method="get">
-
-
-
-              
-
-
-
-              <div class="input-group search-main">
-
-
-
-
-
-
-
-                  <input class="form-control border-0 mr-2" value="" required minlength="4" name="keywords" type="search" placeholder="Search" aria-label="Search">
-
-
-
-
-
-
-
-                  <button class="btn btn-primary " type="submit"><i class="fas fa-search"></i></button>
-
-
-
-
-
-
-
-              </div>
-
-
-
-
-
-
-
-          </form>
+            
 
 
 
@@ -1354,7 +1314,7 @@ include('resources/config.php');
 
 
 
-                              <a class="sub-links " href="products/deposits/fixed-deposit/en.php">Fixed Deposit</a>
+                              <a class="sub-links " href="products/deposits/fixed-deposit/en.php">Funds management</a>
 
 
 
@@ -1613,7 +1573,7 @@ include('resources/config.php');
 
 
 
-                              <a class="sub-links " href="products/loan/educational-loans/en.php">Educational Loans</a>
+                              <a class="sub-links " href="products/loan/capital-investment-fund/en.php">Capital Investment Fund</a>
 
 
 
@@ -1628,7 +1588,7 @@ include('resources/config.php');
 
 
 
-                              <a class="sub-links " href="products/loan/gold-loan/en.php">Gold Loan</a>
+                              <a class="sub-links " href="products/loan/start-up/en.php">Start up Loans</a>
 
 
 
@@ -1745,7 +1705,7 @@ include('resources/config.php');
 
 
 
-                              <a class="sub-links " href="products/microfinance/micro-loan/en.php">Micro Loan</a>
+                              <a class="sub-links " href="products/microfinance/micro-loan/en.php">Debt Refinance</a>
 
 
 
@@ -1760,7 +1720,7 @@ include('resources/config.php');
 
 
 
-                              <a class="sub-links " href="products/microfinance/sme-loan/en.php">SME Loan</a>
+                              <a class="sub-links " href="products/microfinance/sme-loan/en.php">Personal Loans</a>
 
 
 
@@ -2482,11 +2442,11 @@ make, makes you.</h3>
 
                 
 
-                <h2><a href="products/deposits/fixed-deposit/en.php">Fixed Deposit</a></h2>
+                <h2><a href="products/deposits/fixed-deposit/en.php">Funds management</a></h2>
 
                 
 
-                <p>Are you looking for an institute that pays high interest on your Fixed Deposits? Choose <?php echo $row['name']; ?>, a....</p>
+                <p>Are you looking for an institute that pays high interest on your Funds managements? Choose <?php echo $row['name']; ?>, a....</p>
 
                 <a href="products/deposits/fixed-deposit/en.php">Read More</a>
 
@@ -2501,7 +2461,7 @@ make, makes you.</h3>
 
              
 
-              <div class="solutio-grid-image"><a href="products/loan/educational-loans/en.php"><img src="uploads/sub_solution_en/SubSolution8_1650351144.jpg" alt="solution"></a>
+              <div class="solutio-grid-image"><a href="products/loan/capital-investment-fund/en.php"><img src="uploads/sub_solution_en/SubSolution8_1650351144.jpg" alt="solution"></a>
 
                 
 
@@ -2511,13 +2471,13 @@ make, makes you.</h3>
 
                 
 
-                <h2><a href="products/loan/educational-loans/en.php">Educational Loans</a></h2>
+                <h2><a href="products/loan/capital-investment-fund/en.php">Capital Investment Fund</a></h2>
 
                 
 
                 <p>We have tailor-made financial solutions for the students who seek both local and foreign higher education. This facility coul....</p>
 
-                <a href="products/loan/educational-loans/en.php">Read More</a>
+                <a href="products/loan/capital-investment-fund/en.php">Read More</a>
 
               </div>
 
@@ -2538,7 +2498,7 @@ make, makes you.</h3>
 
                 
 
-                <h2><a href="products/microfinance/micro-loan/en.php">Micro Loan</a></h2>
+                <h2><a href="products/microfinance/micro-loan/en.php">Debt Refinance</a></h2>
 
                 
 
@@ -2555,7 +2515,7 @@ make, makes you.</h3>
 
              
 
-              <div class="solutio-grid-image"><a href="products/loan/gold-loan/en.php"><img src="uploads/sub_solution_en/SubSolution13_1650351120.jpg" alt="solution"></a>
+              <div class="solutio-grid-image"><a href="products/loan/start-up/en.php"><img src="uploads/sub_solution_en/SubSolution13_1650351120.jpg" alt="solution"></a>
 
                 
 
@@ -2565,13 +2525,13 @@ make, makes you.</h3>
 
                 
 
-                <h2><a href="products/loan/gold-loan/en.php">Gold Loan</a></h2>
+                <h2><a href="products/loan/start-up/en.php">Start up Loans</a></h2>
 
                 
 
                 <p>Emergencies are just a part-and-parcel of our day to day lives. But when emergencies arise, are we ready financially to cover....</p>
 
-                <a href="products/loan/gold-loan/en.php">Read More</a>
+                <a href="products/loan/start-up/en.php">Read More</a>
 
               </div>
 
@@ -2702,7 +2662,7 @@ make, makes you.</h3>
             <div class="kpi_single d-flex align-items-center">
 
               
-              <img class="kpi-img" src="frontend/img/icons/financial-copy.svg" alt="kpi-img" ><p>FIXED DEPOSIT</p>
+              <img class="kpi-img" src="frontend/img/icons/financial-copy.svg" alt="kpi-img" ><p>Funds management</p>
 
               
               
@@ -2842,7 +2802,7 @@ make, makes you.</h3>
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="products/deposits/fixed-deposit/en.php">Fixed Deposit</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="products/deposits/fixed-deposit/en.php">Funds management</a></li> 
 
                 
                 
@@ -2868,7 +2828,7 @@ make, makes you.</h3>
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="products/loan/educational-loans/en.php">Educational Loans</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="products/loan/capital-investment-fund/en.php">Capital Investment Fund</a></li> 
 
                 
                 
@@ -2881,7 +2841,7 @@ make, makes you.</h3>
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="products/microfinance/micro-loan/en.php">Micro Loan</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="products/microfinance/micro-loan/en.php">Debt Refinance</a></li> 
 
                 
                 

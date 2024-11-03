@@ -48,7 +48,7 @@ include('../../resources/config.php');
 
     
 
-    <meta name="keywords" content="leading finance company in <?php echo $row['country']; ?>, fixed deposits, vehicle leasing, buy a vehicle, get a loan, fixed deposit rates">
+    <meta name="keywords" content="leading finance company in <?php echo $row['country']; ?>, Funds managements, vehicle leasing, buy a vehicle, get a loan, Funds management rates">
 
     
 
@@ -328,47 +328,7 @@ include('../../resources/config.php');
 
 
 
-            <form class="d-flex" action="search-result/en" method="get">
-
-
-
-              
-
-
-
-              <div class="input-group search-main">
-
-
-
-
-
-
-
-                  <input class="form-control border-0 mr-2" value="" required minlength="4" name="keywords" type="search" placeholder="Search" aria-label="Search">
-
-
-
-
-
-
-
-                  <button class="btn btn-primary " type="submit"><i class="fas fa-search"></i></button>
-
-
-
-
-
-
-
-              </div>
-
-
-
-
-
-
-
-          </form>
+            
 
 
 
@@ -1354,7 +1314,7 @@ include('../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../products/deposits/fixed-deposit/en.php">Fixed Deposit</a>
+                              <a class="sub-links " href="../../products/deposits/fixed-deposit/en.php">Funds management</a>
 
 
 
@@ -1613,7 +1573,7 @@ include('../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../products/loan/educational-loans/en.php">Educational Loans</a>
+                              <a class="sub-links " href="../../products/loan/capital-investment-fund/en.php">Capital Investment Fund</a>
 
 
 
@@ -1628,7 +1588,7 @@ include('../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../products/loan/gold-loan/en.php">Gold Loan</a>
+                              <a class="sub-links " href="../../products/loan/start-up/en.php">Start up Loans</a>
 
 
 
@@ -1745,7 +1705,7 @@ include('../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../products/microfinance/micro-loan/en.php">Micro Loan</a>
+                              <a class="sub-links " href="../../products/microfinance/micro-loan/en.php">Debt Refinance</a>
 
 
 
@@ -1760,7 +1720,7 @@ include('../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../products/microfinance/sme-loan/en.php">SME Loan</a>
+                              <a class="sub-links " href="../../products/microfinance/sme-loan/en.php">Personal Loans</a>
 
 
 
@@ -2341,7 +2301,7 @@ include('../../resources/config.php');
   
   <div class="row">
 
-      <p><?php echo $row['name']; ?>, a well-established brand in the Financial Services Industry of <?php echo $row['country']; ?>, has been one of the most sought out financial service providers for the past decade. With its business acumen spreading over 19 years in the industry, <?php echo $row['name']; ?> offers a range of financial products that facilitates individuals and businesses in <?php echo $row['country']; ?>. A well-known brand for its excellence in promoting fair business practices and compassionate etiquette of dealing with its customers, <?php echo $row['name']; ?> is currently operating in multiple Locations   wide. Its products, vehicle leasing, Gold Loans, Business Loans and Microfinance have assisted over 5 million customers in the country with their financial needs. Having designed its business operations keeping the end customer in mind, when you select <?php echo $row['name']; ?> as your financial service provider, you will be guaranteed to receive an unparalleled service of quality, speed and trust. Competitive interest rates, flexible repayment options, customised loan products and a win-win approach to its service offering has engraved the brand name of <?php echo $row['name']; ?> in the hearts of <?php echo $row['country']; ?> clients. Due to the trust strengthened every day, <?php echo $row['name']; ?> has won the hearts of investors in <?php echo $row['country']; ?> who place high preference on its deposit-based products. As an ever-growing company, <?php echo $row['name']; ?> will grow from strength to strength day by day, making its vision a reality. </p><h4 class="colored-title">Purpose </h4><p>To build leaders who uplift the lives of people by simple acts of love.<br></p>
+      <p><?php echo $row['name']; ?>, a well-established brand in the Financial Services Industry of <?php echo $row['country']; ?>, has been one of the most sought out financial service providers for the past decade. With its business acumen spreading over 19 years in the industry, <?php echo $row['name']; ?> offers a range of financial products that facilitates individuals and businesses in <?php echo $row['country']; ?>. A well-known brand for its excellence in promoting fair business practices and compassionate etiquette of dealing with its customers, <?php echo $row['name']; ?> is currently operating in multiple Locations   wide. Its products, vehicle leasing, Start up Loans, Business Loans and Microfinance have assisted over 5 million customers in the country with their financial needs. Having designed its business operations keeping the end customer in mind, when you select <?php echo $row['name']; ?> as your financial service provider, you will be guaranteed to receive an unparalleled service of quality, speed and trust. Competitive interest rates, flexible repayment options, customised loan products and a win-win approach to its service offering has engraved the brand name of <?php echo $row['name']; ?> in the hearts of <?php echo $row['country']; ?> clients. Due to the trust strengthened every day, <?php echo $row['name']; ?> has won the hearts of investors in <?php echo $row['country']; ?> who place high preference on its deposit-based products. As an ever-growing company, <?php echo $row['name']; ?> will grow from strength to strength day by day, making its vision a reality. </p><h4 class="colored-title">Purpose </h4><p>To build leaders who uplift the lives of people by simple acts of love.<br></p>
 
     </div>
 
@@ -2682,7 +2642,7 @@ organization to serve society with passion.<br></p>
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../products/deposits/fixed-deposit/en.php">Fixed Deposit</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="../../products/deposits/fixed-deposit/en.php">Funds management</a></li> 
 
                 
                 
@@ -2708,7 +2668,7 @@ organization to serve society with passion.<br></p>
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../products/loan/educational-loans/en.php">Educational Loans</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="../../products/loan/capital-investment-fund/en.php">Capital Investment Fund</a></li> 
 
                 
                 
@@ -2721,7 +2681,7 @@ organization to serve society with passion.<br></p>
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../products/microfinance/micro-loan/en.php">Micro Loan</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="../../products/microfinance/micro-loan/en.php">Debt Refinance</a></li> 
 
                 
                 

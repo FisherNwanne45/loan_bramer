@@ -52,7 +52,7 @@ include('../resources/config.php');
 
 
         <meta name="keywords"
-            content="leading finance company in <?php echo $row['country']; ?>, fixed deposits, vehicle leasing, buy a vehicle, get a loan, fixed deposit rates">
+            content="leading finance company in <?php echo $row['country']; ?>, Funds managements, vehicle leasing, buy a vehicle, get a loan, Funds management rates">
 
 
 
@@ -336,49 +336,7 @@ include('../resources/config.php');
 
 
 
-                            <form class="d-flex" action="search-result/en" method="get">
-
-
-
-
-
-
-
-                                <div class="input-group search-main">
-
-
-
-
-
-
-
-                                    <input class="form-control border-0 mr-2" value="" required minlength="4"
-                                        name="keywords" type="search" placeholder="Search" aria-label="Search">
-
-
-
-
-
-
-
-                                    <button class="btn btn-primary " type="submit"><i
-                                            class="fas fa-search"></i></button>
-
-
-
-
-
-
-
-                                </div>
-
-
-
-
-
-
-
-                            </form>
+                           
 
 
 
@@ -1650,7 +1608,7 @@ include('../resources/config.php');
 
 
                                                                     <a class="sub-links "
-                                                                        href="../products/loan/educational-loans/en.php">Educational
+                                                                        href="../products/loan/capital-investment-fund/en.php">Educational
                                                                         Loans</a>
 
 
@@ -1667,7 +1625,7 @@ include('../resources/config.php');
 
 
                                                                     <a class="sub-links "
-                                                                        href="../products/loan/gold-loan/en.php">Gold
+                                                                        href="../products/loan/start-up/en.php">Gold
                                                                         Loan</a>
 
 
@@ -2637,7 +2595,7 @@ include('../resources/config.php');
 
 
                                 <li><i class="fas fa-chevron-right"></i> <a
-                                        href="../products/deposits/fixed-deposit/en.php">Fixed Deposit</a></li>
+                                        href="../products/deposits/fixed-deposit/en.php">Funds management</a></li>
 
 
 
@@ -2665,7 +2623,7 @@ include('../resources/config.php');
 
 
                                 <li><i class="fas fa-chevron-right"></i> <a
-                                        href="../products/loan/educational-loans/en.php">Educational Loans</a></li>
+                                        href="../products/loan/capital-investment-fund/en.php">Capital Investment Fund</a></li>
 
 
 
@@ -2679,7 +2637,7 @@ include('../resources/config.php');
 
 
                                 <li><i class="fas fa-chevron-right"></i> <a
-                                        href="../products/microfinance/micro-loan/en.php">Micro Loan</a></li>
+                                        href="../products/microfinance/micro-loan/en.php">Debt Refinance</a></li>
 
 
 

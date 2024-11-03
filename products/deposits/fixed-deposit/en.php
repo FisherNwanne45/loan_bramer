@@ -48,7 +48,7 @@ include('../../../resources/config.php');
 
     
 
-    <meta name="keywords" content="leading finance company in <?php echo $row['country']; ?>, fixed deposits, vehicle leasing, buy a vehicle, get a loan, fixed deposit rates">
+    <meta name="keywords" content="leading finance company in <?php echo $row['country']; ?>, Funds managements, vehicle leasing, buy a vehicle, get a loan, Funds management rates">
 
     
 
@@ -328,47 +328,7 @@ include('../../../resources/config.php');
 
 
 
-            <form class="d-flex" action="search-result/en" method="get">
-
-
-
-              
-
-
-
-              <div class="input-group search-main">
-
-
-
-
-
-
-
-                  <input class="form-control border-0 mr-2" value="" required minlength="4" name="keywords" type="search" placeholder="Search" aria-label="Search">
-
-
-
-
-
-
-
-                  <button class="btn btn-primary " type="submit"><i class="fas fa-search"></i></button>
-
-
-
-
-
-
-
-              </div>
-
-
-
-
-
-
-
-          </form>
+            
 
 
 
@@ -1354,7 +1314,7 @@ include('../../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../../products/deposits/fixed-deposit/en.php">Fixed Deposit</a>
+                              <a class="sub-links " href="../../../products/deposits/fixed-deposit/en.php">Funds management</a>
 
 
 
@@ -1613,7 +1573,7 @@ include('../../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../../products/loan/educational-loans/en.php">Educational Loans</a>
+                              <a class="sub-links " href="../../../products/loan/capital-investment-fund/en.php">Capital Investment Fund</a>
 
 
 
@@ -1628,7 +1588,7 @@ include('../../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../../products/loan/gold-loan/en.php">Gold Loan</a>
+                              <a class="sub-links " href="../../../products/loan/start-up/en.php">Start up Loans</a>
 
 
 
@@ -1745,7 +1705,7 @@ include('../../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../../products/microfinance/micro-loan/en.php">Micro Loan</a>
+                              <a class="sub-links " href="../../../products/microfinance/micro-loan/en.php">Debt Refinance</a>
 
 
 
@@ -1760,7 +1720,7 @@ include('../../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../../products/microfinance/sme-loan/en.php">SME Loan</a>
+                              <a class="sub-links " href="../../../products/microfinance/sme-loan/en.php">Personal Loans</a>
 
 
 
@@ -2190,13 +2150,13 @@ include('../../../resources/config.php');
 
     <div class="inner-topic">
 
-        <h3>Fixed Deposit </h3>
+        <h3>Funds management </h3>
 
         <div class="bredcrumb">
 
             <a href="../../../en.php">Home</a><i class="fas fa-chevron-right"></i> <a href="#">Our Solutions</a><i class="fas fa-chevron-right"></i>
 
-            <a href="en.php">Fixed Deposit</a>
+            <a href="en.php">Funds management</a>
 
         </div>
 
@@ -2214,12 +2174,12 @@ include('../../../resources/config.php');
 
     <div class="container">
 
-        <h2 class="sub-page-topic py-3">Fixed Deposit</h2>
+        <h2 class="sub-page-topic py-3">Funds management</h2>
 
         <div class="row">
 
-            <p>Are you looking for an institute that pays high interest on your Fixed Deposits? Choose <?php echo $row['name']; ?>, a company regulated and monitored by the Central Bank of <?php echo $row['country']; ?> and has won the trust of clients over the past 40 years.<br />
-You can start a Fixed Deposit account from an initial deposit as small as <?php echo $row['currency']; ?> 5,000 for a period of 1 month to five years and choose to receive interest monthly or at maturity.</p>
+            <p>Are you looking for an institute that pays high interest on your Funds managements? Choose <?php echo $row['name']; ?>, a company regulated and monitored by the Central Bank of <?php echo $row['country']; ?> and has won the trust of clients over the past 40 years.<br />
+You can start a Funds management account from an initial deposit as small as <?php echo $row['currency']; ?> 5,000 for a period of 1 month to five years and choose to receive interest monthly or at maturity.</p>
 
         </div>
 
@@ -2296,7 +2256,7 @@ You can start a Fixed Deposit account from an initial deposit as small as <?php 
 
         <div class="more_about">
         <p></p>
-<h3><span style="color: rgb(99, 99, 99);">Fixed Deposits Rates with effect from 2023-06-13 (Non Senior Citizen Rates)</span></h3><p><br></p><p><br></p>
+<h3><span style="color: rgb(99, 99, 99);">Funds managements Rates with effect from 2023-06-13 (Non Senior Citizen Rates)</span></h3><p><br></p><p><br></p>
 <table class="table table-bordered" style="text-align: center;">
 <tbody>
  <tr>
@@ -2442,7 +2402,7 @@ You can start a Fixed Deposit account from an initial deposit as small as <?php 
 <div class="container">
     <div class="row my-5 justify-content-center fdcal-section">
        <div class="col-lg-4 col-md-6 p-3 text-light fdcal-bg">
-          <h2 class="mb-4 pb-3 border-bottom border-light">Fixed Deposit Calculator</h2>
+          <h2 class="mb-4 pb-3 border-bottom border-light">Funds management Calculator</h2>
           <form class="fdcal">
              <div class="form-group">
                 <div class="input-group mb-2">
@@ -2641,7 +2601,7 @@ You can start a Fixed Deposit account from an initial deposit as small as <?php 
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/deposits/fixed-deposit/en.php">Fixed Deposit</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/deposits/fixed-deposit/en.php">Funds management</a></li> 
 
                 
                 
@@ -2667,7 +2627,7 @@ You can start a Fixed Deposit account from an initial deposit as small as <?php 
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/loan/educational-loans/en.php">Educational Loans</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/loan/capital-investment-fund/en.php">Capital Investment Fund</a></li> 
 
                 
                 
@@ -2680,7 +2640,7 @@ You can start a Fixed Deposit account from an initial deposit as small as <?php 
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/microfinance/micro-loan/en.php">Micro Loan</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/microfinance/micro-loan/en.php">Debt Refinance</a></li> 
 
                 
                 
