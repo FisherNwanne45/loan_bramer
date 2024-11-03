@@ -1339,8 +1339,8 @@ include('resources/config.php');
 
 
                                                                     <a class="sub-links "
-                                                                        href="products/deposits/fixed-deposit/en.php">Fixed
-                                                                        Deposit</a>
+                                                                        href="products/deposits/fixed-deposit/en.php">Funds
+                                                                        management</a>
 
 
 
@@ -1608,8 +1608,8 @@ include('resources/config.php');
 
 
                                                                     <a class="sub-links "
-                                                                        href="products/loan/capital-investment-fund/en.php">Educational
-                                                                        Loans</a>
+                                                                        href="products/loan/capital-investment-fund/en.php">Capital
+                                                                        Investment Fund</a>
 
 
 
@@ -1625,8 +1625,8 @@ include('resources/config.php');
 
 
                                                                     <a class="sub-links "
-                                                                        href="products/loan/start-up/en.php">Gold
-                                                                        Loan</a>
+                                                                        href="products/loan/start-up/en.php">Start up
+                                                                        Loans</a>
 
 
 
@@ -1746,8 +1746,8 @@ include('resources/config.php');
 
 
                                                                     <a class="sub-links "
-                                                                        href="products/microfinance/micro-loan/en.php">Micro
-                                                                        Loan</a>
+                                                                        href="products/microfinance/micro-loan/en.php">Debt
+                                                                        Refinance</a>
 
 
 
@@ -1763,8 +1763,7 @@ include('resources/config.php');
 
 
                                                                     <a class="sub-links "
-                                                                        href="products/microfinance/sme-loan/en.php">SME
-                                                                        Loan</a>
+                                                                        href="products/microfinance/sme-loan/en.php">Personal Loans</a>
 
 
 
@@ -2501,8 +2500,8 @@ include('resources/config.php');
 
 
 
-                                        <p>Are you looking for an institute that pays high interest on your Fixed
-                                            Deposits? Choose <?php echo $row['name']; ?>, a....</p>
+                                        <p>Are you looking for an institute that pays high interest on your Funds
+                                            managements? Choose <?php echo $row['name']; ?>, a....</p>
 
                                         <a href="products/deposits/fixed-deposit/en.php">Read More</a>
 
@@ -2530,7 +2529,8 @@ include('resources/config.php');
 
 
 
-                                        <h2><a href="products/loan/capital-investment-fund/en.php">Capital Investment Fund</a></h2>
+                                        <h2><a href="products/loan/capital-investment-fund/en.php">Capital Investment
+                                                Fund</a></h2>
 
 
 
@@ -2808,7 +2808,7 @@ include('resources/config.php');
 
                                         <div class="socil-icons">
 
-                                            <!--  <a target="_blank" href="https://www.facebook.com/comcreditlk/"><i class="fab fa-facebook-f"></i></a>
+                                            <!--    <a target="_blank" href="https://www.facebook.com/comcreditlk/"><i class="fab fa-facebook-f"></i></a>
 
                   <a target="_blank" href="https://www.instagram.com/commercialcredit_/"><i class="fab fa-instagram"></i></a>
 
@@ -2912,7 +2912,8 @@ include('resources/config.php');
 
 
                                 <li><i class="fas fa-chevron-right"></i> <a
-                                        href="products/loan/capital-investment-fund/en.php">Capital Investment Fund</a></li>
+                                        href="products/loan/capital-investment-fund/en.php">Capital Investment Fund</a>
+                                </li>
 
 
 
