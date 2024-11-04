@@ -1431,7 +1431,7 @@ include('../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../products/leasing-hire-purchase/auto-loan/en.php">Auto Loan</a>
+                              <a class="sub-links " href="../../products/leasing-hire-purchase/venture/en.php">Venture Capital</a>
 
 
 
@@ -2354,7 +2354,7 @@ Go to the nearest <?php echo $row['name']; ?> branch with your motor bike or thr
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../products/leasing-hire-purchase/auto-loan/en.php">Auto Loan</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="../../products/leasing-hire-purchase/venture/en.php">Venture Capital</a></li> 
 
                 
                 

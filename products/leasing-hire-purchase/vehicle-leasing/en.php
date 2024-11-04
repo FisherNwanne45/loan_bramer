@@ -1431,7 +1431,7 @@ include('../../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../../products/leasing-hire-purchase/auto-loan/en.php">Auto Loan</a>
+                              <a class="sub-links " href="../../../products/leasing-hire-purchase/venture/en.php">Venture Capital</a>
 
 
 
@@ -2393,7 +2393,7 @@ If you are acquiring a brand new vehicle or a used vehicle, our leasing faciliti
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/leasing-hire-purchase/auto-loan/en.php">Auto Loan</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/leasing-hire-purchase/venture/en.php">Venture Capital</a></li> 
 
                 
                 

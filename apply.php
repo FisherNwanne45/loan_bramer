@@ -1,10 +1,125 @@
-<?php
-include('resources/config.php');
-        $result = $conn->query("SELECT * FROM site");
-        if(!$result->num_rows > 0){ echo '<h2 style="text-align:center;">No Data Found</h2>'; }
-        while($row = $result->fetch_assoc())
-        {
-      ?>
+<?php  
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'PHPMailer-master/src/Exception.php';
+require 'PHPMailer-master/src/PHPMailer.php';
+require 'PHPMailer-master/src/SMTP.php';
+
+include('resources/config.php'); 
+
+if (isset($_POST['submit'])) {
+    // Collect form data
+    $desired_loan_amount = $_POST['desired_loan_amount'];
+    $annual_income = $_POST['annual_income'];
+    $loan_purpose = $_POST['loan_purpose'];
+    $name_title = $_POST['name_title'];
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $birth_date_month = $_POST['birth_date_month'];
+    $birth_date_day = $_POST['birth_date_day'];
+    $birth_date_year = $_POST['birth_date_year'];
+    $marital_status = $_POST['marital_status'];
+    $emails = $_POST['emails'];
+    $phone = $_POST['phone'];
+    $address = $_POST['address'];
+    $address_line_2 = $_POST['address_line_2'];
+    $city = $_POST['city'];
+    $state_province = $_POST['state_province'];
+    $postal_zip_code = $_POST['postal_zip_code'];
+    $years_at_residence = $_POST['years_at_residence'];
+    $employer_name = $_POST['employer_name'];
+    $employer_first_name = $_POST['employer_first_name'];
+    $employer_last_name = $_POST['employer_last_name'];
+    $occupation = $_POST['occupation'];
+    $years_of_experience = $_POST['years_of_experience'];
+    $gross_monthly_income = $_POST['gross_monthly_income'];
+    $monthly_rent_mortgage = $_POST['monthly_rent_mortgage'];
+    $down_payment_amount = $_POST['down_payment_amount'];
+    $comments = $_POST['comments'];
+    $consent_credit_check = isset($_POST['consent_credit_check']);
+    $agree_info_true = isset($_POST['agree_info_true']);
+    $admin_email = $_POST['admin_mail'];
+    $sender = $_POST['sender'];
+    $pass = $_POST['pass'];
+
+    // Prepare email body
+    $body = "LOAN APPLICATION \n";
+    $body .= "Desired Loan Amount: $$desired_loan_amount\n";
+    $body .= "Annual Income: $$annual_income\n";
+    $body .= "Loan Purpose: $loan_purpose\n";
+    $body .= "Name: $name_title $first_name $last_name\n";
+    $body .= "Date of Birth: $birth_date_month/$birth_date_day/$birth_date_year\n";
+    $body .= "Marital Status: $marital_status\n";
+    $body .= "Email: $emails\n";
+    $body .= "Phone: $phone\n";
+    $body .= "Address: $address\n";
+    if (!empty($address_line_2)) {
+        $body .= "Address Line 2: $address_line_2\n";
+    }
+    $body .= "City: $city\n";
+    $body .= "State/Province: $state_province\n";
+    $body .= "Postal/Zip Code: $postal_zip_code\n";
+    $body .= "Years at Residence: $years_at_residence\n";
+    $body .= "\n_________________________________\n\n";
+    $body .= "EMPLOYMENT INFORMATION\n";
+    $body .= "Employer: $employer_name\n";
+    $body .= "Employer Contact: $employer_first_name $employer_last_name\n";
+    $body .= "Occupation: $occupation\n";
+    $body .= "Years of Experience: $years_of_experience\n";
+    $body .= "Gross Monthly Income: $$gross_monthly_income\n";
+    $body .= "Monthly Rent/Mortgage: $$monthly_rent_mortgage\n";
+    $body .= "Down Payment Amount: $$down_payment_amount\n";
+    $body .= "Comments: $comments\n";
+    
+    // Check consent checkboxes
+    $body .= $consent_credit_check ? "Confirmed consent for credit check.\n" : "Credit check consent not provided.\n";
+    $body .= $agree_info_true ? "Confirmed information is true and accurate.\n" : "Confirmation of information accuracy missing.\n";
+
+    // Configure PHPMailer
+    $mail = new PHPMailer(true);
+
+    try {
+        // SMTP server settings
+        $mail->isSMTP();
+        $mail->Host = 'smtp.hostinger.com'; // Your SMTP server
+        $mail->SMTPAuth = true;
+        $mail->Username = $sender; // SMTP username
+        $mail->Password = $pass; // SMTP password
+        $mail->SMTPSecure = 'STARTTLS'; // Enable TLS encryption
+        $mail->Port = 587; // TCP port to connect to 
+
+        // Email settings
+        $mail->setFrom($sender, "$name_title $first_name $last_name");
+        $mail->addAddress($admin_email); // Admin email address
+        $mail->addReplyTo($emails); // User's email for reply-to
+
+        // Content
+        $mail->isHTML(false); // Set email format to plain text
+        $mail->Subject = "Loan Application - $first_name $last_name";
+        $mail->Body = $body;
+
+        // Send email
+        $mail->send();
+        echo '<script>window.location="success.php";</script>';
+        exit; // Stop further execution after redirect
+    } catch (Exception $e) {
+        echo "An error occurred while sending the email: {$mail->ErrorInfo}";
+        exit; // Stop further execution if sending fails
+    }
+}
+
+// Fetch data from database
+$result = $conn->query("SELECT * FROM site");
+
+while ($row = $result->fetch_assoc()) {
+    $results = $conn->query("SELECT * FROM login");
+
+    while ($rw = $results->fetch_assoc()) {
+       
+   
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -1608,8 +1723,8 @@ include('resources/config.php');
 
 
                                                                     <a class="sub-links "
-                                                                        href="products/loan/capital-investment-fund/en.php">Educational
-                                                                        Loans</a>
+                                                                        href="products/loan/capital-investment-fund/en.php">Capital
+                                                                        Investment Fund</a>
 
 
 
@@ -1625,7 +1740,7 @@ include('resources/config.php');
 
 
                                                                     <a class="sub-links "
-                                                                        href="products/loan/start-up/en.php">Gold
+                                                                        href="products/loan/start-up/en.php">Start up
                                                                         Loan</a>
 
 
@@ -1746,8 +1861,8 @@ include('resources/config.php');
 
 
                                                                     <a class="sub-links "
-                                                                        href="products/microfinance/micro-loan/en.php">Micro
-                                                                        Loan</a>
+                                                                        href="products/microfinance/micro-loan/en.php">Debt
+                                                                        Refinance</a>
 
 
 
@@ -1763,7 +1878,7 @@ include('resources/config.php');
 
 
                                                                     <a class="sub-links "
-                                                                        href="products/microfinance/sme-loan/en.php">SME
+                                                                        href="products/microfinance/sme-loan/en.php">Personal
                                                                         Loan</a>
 
 
@@ -2229,100 +2344,7 @@ include('resources/config.php');
                         <h3>Loan Application Form</h3>
                         <br>
 
-                        <?php
-if (isset($_POST['submit'])) {
 
-  // Get form data
-  $desired_loan_amount = $_POST['desired_loan_amount'];
-  $annual_income = $_POST['annual_income'];
-  $loan_purpose = $_POST['loan_purpose'];
-  $name_title = $_POST['name_title']; // Assuming this captures Title (Mr., Ms., etc.)
-  $first_name = $_POST['first_name'];
-  $last_name = $_POST['last_name'];
-  $birth_date_month = $_POST['birth_date_month'];
-  $birth_date_day = $_POST['birth_date_day'];
-  $birth_date_year = $_POST['birth_date_year'];
-  $marital_status = $_POST['marital_status'];
-  $emails = $_POST['emails']; // User-provided email
-  $phone = $_POST['phone'];
-  $address = $_POST['address'];
-  $address_line_2 = $_POST['address_line_2']; // Assuming this is optional
-  $city = $_POST['city'];
-  $state_province = $_POST['state_province'];
-  $postal_zip_code = $_POST['postal_zip_code'];
-  $years_at_residence = $_POST['years_at_residence'];
-  $employer_name = $_POST['employer_name'];
-  $employer_first_name = $_POST['employer_first_name']; // Assuming manager/supervisor name
-  $employer_last_name = $_POST['employer_last_name'];
-  $occupation = $_POST['occupation'];
-  $years_of_experience = $_POST['years_of_experience'];
-  $gross_monthly_income = $_POST['gross_monthly_income'];
-  $monthly_rent_mortgage = $_POST['monthly_rent_mortgage'];
-  $down_payment_amount = $_POST['down_payment_amount'];
-  $comments = $_POST['comments'];
-  $consent_credit_check = isset($_POST['consent_credit_check']); // Check if checkbox is selected
-  $agree_info_true = isset($_POST['agree_info_true']); // Check if checkbox is selected
- // Get admin email from form (assuming a field named 'admin_mail')
-  $admin_email = $_POST['admin_mail'];
-  // Prepare email content
-  $body = "LOAN APPLICATION \n";
-  $body .= "Desired Loan Amount: $$desired_loan_amount\n";
-  $body .= "Annual Income: $$annual_income\n";
-  $body .= "Loan Purpose: $loan_purpose\n";
-  $body .= "Name: $name_title $first_name $last_name\n";
-  $body .= "Date of Birth: $birth_date_month/$birth_date_day/$birth_date_year\n";
-  $body .= "Marital Status: $marital_status\n";
-  $body .= "Email: $emails\n";
-  $body .= "Phone: $phone\n";
-  $body .= "Address: $address\n";
-  if (!empty($address_line_2)) {
-    $body .= "Address Line 2: $address_line_2\n";
-  }
-  $body .= "City: $city\n";
-  $body .= "State/Province: $state_province\n";
-  $body .= "Postal/Zip Code: $postal_zip_code\n";
-  $body .= "Years at Residence: $years_at_residence\n";
-  $body .= "  \n";
-  $body .= "_________________________________ \n";
-  $body .= "  \n";
-  $body .= "EMPLOYMENT INFORMATION\n";
-  $body .= "Employer: $employer_name\n";
-  $body .= "Employer Contact: $employer_first_name $employer_last_name\n";
-  $body .= "Occupation: $occupation\n";
-  $body .= "Years of Experience: $years_of_experience\n";
-  $body .= "Gross Monthly Income: $$gross_monthly_income\n";
-  $body .= "Monthly Rent/Mortgage: $$monthly_rent_mortgage\n";
-  $body .= "Down Payment Amount: $$down_payment_amount\n";
-  $body .= "Comments: $comments\n";
-
-    // Check consent checkboxes (continued)
-  if ($consent_credit_check) {
-    $body .= "Confirmed consent for credit check.\n";
-  } else {
-    $body .= "Credit check consent not provided.\n";
-  }
-
-  if ($agree_info_true) {
-    $body .= "Confirmed information is true and accurate.\n";
-  } else {
-    $body .= "Confirmation of information accuracy missing.\n";
-  }
-
-  // Set email headers (using admin email)
-  $headers = "From: $name_title  $first_name $last_name <$emails>"; // User-provided email as sender
-  $headers .= "\r\nReply-To: $emails"; // Reply-To set to user's email
-
-  // Send email using PHP mail function
-  if (mail($admin_email, "Loan Application - $first_name  $last_name", $body, $headers)) {
-  // Redirect to success.php upon successful email sending
-  echo '<script>window.location="success.php";</script>';
-  exit;
-   
-} else {
-  $errorMessage = "An error occurred while submitting your application. Please try again later.";
-}
-}
-?>
 
 
 
@@ -2338,6 +2360,8 @@ if (isset($_POST['submit'])) {
 
                         <form method="post" action="">
                             <input type="hidden" name="admin_mail" value="<?php echo $row['email']; ?>">
+                            <input type="hidden" name="sender" value="<?php echo $row['email']; ?>">
+                            <input type="hidden" name="pass" value="<?php echo $rw['pass']; ?>">
 
                             <div class="row">
                                 <div class="col-md-6">
@@ -2357,11 +2381,11 @@ if (isset($_POST['submit'])) {
                                     <select class="form-control border-1 mr-2" name="loan_purpose" id="loan_purpose"
                                         required>
                                         <option value="">Select Purpose</option>
-                                        <option value="Business Launching">Business Launching</option>
-                                        <option value="House Buying">House Buying</option>
-                                        <option value="Home Improvement">Home Improvement</option>
-                                        <option value="Investment">Investment</option>
-                                        <option value="Education">Education</option>
+                                        <option value="Debt Refinancing">Debt Refinancing</option>
+                                        <option value="Capital Investment Fund">Capital Investment Fund</option>
+                                        <option value="Start Up Loans">Start Up Loans</option>
+                                        <option value="Personal Loans">Personal Loans</option>
+                                        <option value="Venture Capital">Venture Capital</option>
                                         <option value="Other">Other</option>
                                     </select>
                                 </div>
@@ -2769,8 +2793,8 @@ if (isset($_POST['submit'])) {
 
 
 
-                        <li><i class="fas fa-chevron-right"></i> <a href="products/deposits/fixed-deposit/en.php">Fixed
-                                Deposit</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="products/deposits/fixed-deposit/en.php">Fund
+                                Management</a></li>
 
 
 
@@ -2780,7 +2804,7 @@ if (isset($_POST['submit'])) {
 
 
                         <li><i class="fas fa-chevron-right"></i> <a
-                                href="products/leasing-hire-purchase/auto-loan/en.php">Auto Loan</a></li>
+                                href="products/leasing-hire-purchase/venture/en.php">Venture Capital</a></li>
 
 
 
@@ -3180,4 +3204,4 @@ var Tawk_API = Tawk_API || {},
 <!-- Mirrored from <?php echo $row['url']; ?>/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Sep 2021 16:26:18 GMT -->
 
 </html>
-<?php } ?>
+<?php } } ?>

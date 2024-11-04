@@ -1439,7 +1439,7 @@ include_once ('session.php');
 
 
 
-                              <a class="sub-links " href="../products/leasing-hire-purchase/auto-loan/en.php">Auto Loan</a>
+                              <a class="sub-links " href="../products/leasing-hire-purchase/venture/en.php">Venture Capital</a>
 
 
 
@@ -2341,7 +2341,7 @@ include_once ('session.php');
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="../products/leasing-hire-purchase/auto-loan/en.php">Auto Loan</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="../products/leasing-hire-purchase/venture/en.php">Venture Capital</a></li> 
 
                 
                 

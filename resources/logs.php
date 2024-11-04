@@ -111,7 +111,7 @@ include_once ('session.php');
                             <ul>
                                 <li><a href="../personal.php">Personal Loan</a></li>
                                 <li><a href="../biz-loan.php">Business Loan</a></li>
-                                <li><a href="../auto.php">Auto Loan</a></li>
+                                <li><a href="../auto.php">Venture Capital</a></li>
                                 <li><a href="../wedding.php">Wedding Loan</a></li>
                                 <li><a href="../property.php">Property Loan</a></li>
                                 <li><a href="../education.php">Education Loan</a></li>

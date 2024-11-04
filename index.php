@@ -1460,8 +1460,8 @@ include('resources/config.php');
 
 
                                                                     <a class="sub-links "
-                                                                        href="products/leasing-hire-purchase/auto-loan/en.php">Auto
-                                                                        Loan</a>
+                                                                        href="products/leasing-hire-purchase/venture/en.php">Venture
+                                                                        Capital</a>
 
 
 
@@ -2610,8 +2610,8 @@ include('resources/config.php');
 
 
                                     <div class="solutio-grid-image"><a
-                                            href="products/leasing-hire-purchase/vehicle-leasing/en.php"><img
-                                                src="uploads/sub_solution_en/SubSolution14_1650449636.jpg"
+                                            href="products/leasing-hire-purchase/venture/en.php"><img
+                                                src="uploads/pagebanner_image_upload/2022/03/bcd4dbad-00bf-4dc4-9874-c7b971b5a063.jpg"
                                                 alt="solution"></a>
 
 
@@ -2622,15 +2622,15 @@ include('resources/config.php');
 
 
 
-                                        <h2><a href="products/leasing-hire-purchase/vehicle-leasing/en.php">Vehicle
-                                                Leasing</a></h2>
+                                        <h2><a href="products/leasing-hire-purchase/venture/en.php">Venture Capital</a>
+                                        </h2>
 
 
 
-                                        <p>The decision to buy a vehicle is one of the most important investment
-                                            decisions you make in your life. That is why you need t....</p>
+                                        <p>Venture capital provides significant advantages for startups and early-stage
+                                            companies looking to grow rapidly....</p>
 
-                                        <a href="products/leasing-hire-purchase/vehicle-leasing/en.php">Read More</a>
+                                        <a href="products/leasing-hire-purchase/venture/en.php">Read More</a>
 
                                     </div>
 
@@ -2894,7 +2894,7 @@ include('resources/config.php');
 
 
                                 <li><i class="fas fa-chevron-right"></i> <a
-                                        href="products/leasing-hire-purchase/auto-loan/en.php">Auto Loan</a></li>
+                                        href="products/leasing-hire-purchase/venture/en.php">Venture Capital</a></li>
 
 
 

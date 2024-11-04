@@ -1431,7 +1431,7 @@ include('../../../resources/config.php');
 
 
 
-                              <a class="sub-links " href="../../../products/leasing-hire-purchase/auto-loan/en.php">Auto Loan</a>
+                              <a class="sub-links " href="../../../products/leasing-hire-purchase/venture/en.php">Venture Capital</a>
 
 
 
@@ -2410,7 +2410,7 @@ Eligibility for LPPI typically includes being of a certain age, meeting specific
                 
 
                 
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/leasing-hire-purchase/auto-loan/en.php">Auto Loan</a></li> 
+                  <li><i class="fas fa-chevron-right"></i> <a href="../../../products/leasing-hire-purchase/venture/en.php">Venture Capital</a></li> 
 
                 
                 
