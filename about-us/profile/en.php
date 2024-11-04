@@ -10,177 +10,184 @@ include('../../resources/config.php');
 <html lang="en">
 
 
-<!-- Mirrored from www/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jun 2023 03:20:13 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-<head>
+    <!-- Mirrored from www/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jun 2023 03:20:13 GMT -->
+    <!-- Added by HTTrack -->
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
-    <meta charset="UTF-8">
+    <head>
 
-    <link rel="icon" type="image/png" href="../../frontend/img/favi/fav-icon.ico" />
+        <meta charset="UTF-8">
 
+        <link rel="icon" type="image/png" href="../../frontend/img/favi/fav-icon.ico" />
 
 
-   
 
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta name="description" content="<?php echo $row['name']; ?> is a leading finance company in <?php echo $row['country']; ?> whose purpose is uplifting the lives of people with simple act of love.">
 
-<meta name="title" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description"
+            content="<?php echo $row['name']; ?> is a leading finance company in <?php echo $row['country']; ?> whose purpose is uplifting the lives of people with simple act of love.">
 
+        <meta name="title" content="">
 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
 
 
 
-   
 
-    
 
-    
 
-    
 
-   
 
-    
 
-    <meta name="keywords" content="leading finance company in <?php echo $row['country']; ?>, Funds managements, vehicle leasing, buy a vehicle, get a loan, Funds management rates">
 
-    
 
-  
 
 
-    <title>About - <?php echo $row['name']; ?></title>
 
 
 
-    
 
+        <meta name="keywords"
+            content="leading finance company in <?php echo $row['country']; ?>, Funds managements, vehicle leasing, buy a vehicle, get a loan, Funds management rates">
 
 
-    <meta property="og:title" content="<?php echo $row['name']; ?>" />
 
-    <meta property="og:type" content="website" />
 
-    <meta property="og:site_name" content="<?php echo $row['name']; ?>" />
 
-    <meta property="og:description" content="<?php echo $row['name']; ?> is a leading finance company in <?php echo $row['country']; ?> whose purpose is uplifting the lives of people with simple act of love." />
 
-    <meta property="og:url" content="../../index.php" />
+        <title>About - <?php echo $row['name']; ?></title>
 
-    <meta property="og:image" content="../../frontend/img/og-cc.png" />
 
-    <meta property="og:image:type" content="image/png" />
 
-    <meta property="og:image:width" content="1200" />
 
-    <meta property="og:image:height" content="630" />
 
-    <meta name="twitter:card" content="<?php echo $row['name']; ?>">
-    <meta name="twitter:site" content="<?php echo $row['name']; ?>">
-    <meta name="twitter:title" content="<?php echo $row['name']; ?>">
-    <meta name="twitter:description" content="<?php echo $row['name']; ?> is a leading finance company in <?php echo $row['country']; ?> whose purpose is uplifting the lives of people with simple act of love.">
-    <meta name="twitter:creator" content="<?php echo $row['name']; ?>">
-    <meta name="twitter:image" content="../../frontend/img/og-cc.png">
 
 
+        <meta property="og:title" content="<?php echo $row['name']; ?>" />
 
-    <link rel="stylesheet" href="../../frontend/css/bootstrap.min.css">
+        <meta property="og:type" content="website" />
 
+        <meta property="og:site_name" content="<?php echo $row['name']; ?>" />
 
+        <meta property="og:description"
+            content="<?php echo $row['name']; ?> is a leading finance company in <?php echo $row['country']; ?> whose purpose is uplifting the lives of people with simple act of love." />
 
-<link rel="stylesheet" href="../../frontend/css/material-design-iconic-font.min.css">
+        <meta property="og:url" content="../../index.php" />
 
+        <meta property="og:image" content="../../frontend/img/og-cc.png" />
 
+        <meta property="og:image:type" content="image/png" />
 
-<link href="../../frontend/css/google_font.css" rel="stylesheet">
+        <meta property="og:image:width" content="1200" />
 
+        <meta property="og:image:height" content="630" />
 
+        <meta name="twitter:card" content="<?php echo $row['name']; ?>">
+        <meta name="twitter:site" content="<?php echo $row['name']; ?>">
+        <meta name="twitter:title" content="<?php echo $row['name']; ?>">
+        <meta name="twitter:description"
+            content="<?php echo $row['name']; ?> is a leading finance company in <?php echo $row['country']; ?> whose purpose is uplifting the lives of people with simple act of love.">
+        <meta name="twitter:creator" content="<?php echo $row['name']; ?>">
+        <meta name="twitter:image" content="../../frontend/img/og-cc.png">
 
-<link rel="stylesheet" href="../../frontend/css/owl.carousel.min.css" crossorigin="anonymous" />
 
 
+        <link rel="stylesheet" href="../../frontend/css/bootstrap.min.css">
 
-<link rel="stylesheet" href="../../frontend/css/aos.css" />
 
 
+        <link rel="stylesheet" href="../../frontend/css/material-design-iconic-font.min.css">
 
 
-<script src="../../frontend/js/jquery-3.6.0.js" crossorigin="anonymous"></script>
 
+        <link href="../../frontend/css/google_font.css" rel="stylesheet">
 
-<script src="../../frontend/js/owl.carousel.min.js" crossorigin="anonymous">
 
 
+        <link rel="stylesheet" href="../../frontend/css/owl.carousel.min.css" crossorigin="anonymous" />
 
-</script>
 
 
+        <link rel="stylesheet" href="../../frontend/css/aos.css" />
 
-<script src="../../frontend/js/fontawasome.js" crossorigin="anonymous"></script>
 
 
 
+        <script src="../../frontend/js/jquery-3.6.0.js" crossorigin="anonymous"></script>
 
 
+        <script src="../../frontend/js/owl.carousel.min.js" crossorigin="anonymous">
 
 
-<link rel="stylesheet" href="../../frontend/css/style4818.css?v=79">
 
+        </script>
 
 
-<link rel="stylesheet" href="../../frontend/css/responsive8e0e.css?v=8">
 
+        <script src="../../frontend/js/fontawasome.js" crossorigin="anonymous"></script>
 
 
 
 
 
 
-<script src="../../frontend/js/recaptcha_api.js"></script>
 
-    
-    
+        <link rel="stylesheet" href="../../frontend/css/style4818.css?v=79">
 
-    
-</head>
 
-<body>  
 
-     
-    
-    
-   
+        <link rel="stylesheet" href="../../frontend/css/responsive8e0e.css?v=8">
 
-    
-    <nav id="header" class="navbar navbar-expand-lg navbar-light fixed-top bg-light shadow">
 
 
 
 
 
 
+        <script src="../../frontend/js/recaptcha_api.js"></script>
 
-    <div class="container">
 
 
 
 
+    </head>
 
+    <body>
 
 
-      <a class="logo-img" aria-current="page" href="../../en.php"><img src="../../frontend/img/english_logo.png" alt="logo"></a>
 
 
 
 
 
-<!--
+        <nav id="header" class="navbar navbar-expand-lg navbar-light fixed-top bg-light shadow">
+
+
+
+
+
+
+
+            <div class="container">
+
+
+
+
+
+
+
+                <a class="logo-img" aria-current="page" href="../../en.php"><img
+                        src="../../frontend/img/english_logo.png" alt="logo"></a>
+
+
+
+
+
+                <!--
 
         <button class="navbar-toggler collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
 
@@ -192,21 +199,21 @@ include('../../resources/config.php');
 
 -->
 
-        
-
-        
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
-
-      <span class="navbar-toggler-icon"></span>
-
-    </button>
 
 
 
 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
 
-<!--
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+
+
+
+
+                <!--
 
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
 
@@ -230,17 +237,9 @@ include('../../resources/config.php');
 
 -->
 
-        
-
-      <div class=" main-nav w-100">
 
 
-
-
-
-
-
-      <div class=" d-flex justify-content-end top-bar align-items-center">
+                <div class=" main-nav w-100">
 
 
 
@@ -248,7 +247,7 @@ include('../../resources/config.php');
 
 
 
-        <div class="top_item contactDetails">
+                    <div class=" d-flex justify-content-end top-bar align-items-center">
 
 
 
@@ -256,7 +255,7 @@ include('../../resources/config.php');
 
 
 
-          <a href="tel:<?php echo $row['phone']; ?>">Call Us : <?php echo $row['phone']; ?></a>
+                        <div class="top_item contactDetails">
 
 
 
@@ -264,7 +263,7 @@ include('../../resources/config.php');
 
 
 
-          <a href="mailTo:<?php echo $row['email']; ?>">Email : <span  ><?php echo $row['email']; ?></span></a>
+                            <a href="tel:<?php echo $row['phone']; ?>">Call Us : <?php echo $row['phone']; ?></a>
 
 
 
@@ -272,7 +271,8 @@ include('../../resources/config.php');
 
 
 
-        </div>
+                            <a href="mailTo:<?php echo $row['email']; ?>">Email :
+                                <span><?php echo $row['email']; ?></span></a>
 
 
 
@@ -280,7 +280,15 @@ include('../../resources/config.php');
 
 
 
-        <!-- <div class="top_item">
+                        </div>
+
+
+
+
+
+
+
+                        <!-- <div class="top_item">
 
 
 
@@ -320,7 +328,7 @@ include('../../resources/config.php');
 
 
 
-        <div class="top_item search-module">
+                        <div class="top_item search-module">
 
 
 
@@ -328,7 +336,6 @@ include('../../resources/config.php');
 
 
 
-            
 
 
 
@@ -336,7 +343,8 @@ include('../../resources/config.php');
 
 
 
-        </div>
+
+                        </div>
 
 
 
@@ -344,7 +352,7 @@ include('../../resources/config.php');
 
 
 
-       <!--  <div class="top_item">
+                        <!--  <div class="top_item">
 
 
 
@@ -388,814 +396,2001 @@ include('../../resources/config.php');
 
 
 
-        <div class="top_item lang-switcher d-flex">
+                        <div class="top_item lang-switcher d-flex">
 
-          <a class="translate-links"   href="https://<?php echo $row['apply']; ?>">New Application </a>
-          <a class="translate-links"   href="../../track.php">Track Status</a> 
+                            <a class="translate-links" href="https://<?php echo $row['apply']; ?>">New Application </a>
+                            <a class="translate-links" href="../../track.php">Track Status</a>
+
+                        </div>
+
+
+
+                        <!--<div class="top_item login-button">-->
+
+                        <!--  <a class="onlineBanking-links" href="#"><i class="fas fa-user-lock"></i> Login <i class="fas fa-caret-down"></i></a>-->
+                        <!--  <ul class="login-dropdown">-->
+                        <!--    <li><a target="_blank" href="online-banking-web/digital-online"><img src="https://xiteb.biz/projects/commercial-c-v-12/public/uploads/upby_rc/ccl-digital-banking.svg" alt="CCL Digital Banking"> CCL Digital Banking</a></li>-->
+                        <!--    <li><a href="#"><img src="https://xiteb.biz/projects/commercial-c-v-12/public/uploads/upby_rc/download-ccl-wallet.svg" alt="Download CCL Wallet"> Download CCL Wallet</a></li>-->
+                        <!--    <li><a href="#"><img src="https://xiteb.biz/projects/commercial-c-v-12/public/uploads/upby_rc/online-mobile-loan.svg" alt="Online Mobile Loan"> Online Mobile Loan</a></li>-->
+                        <!--    <li><a href="#"><img src="https://xiteb.biz/projects/commercial-c-v-12/public/uploads/upby_rc/ccl-sales-portal.svg" alt="CCL Sale's Portal"> CCL Sale's Portal</a></li>-->
+                        <!--  </ul>-->
+
+                        <!--</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+
+
+
+
+
+
+
+                            <li class="nav-item">
+
+
+
+
+
+
+
+                                <a class="nav-link   " href="../../en.php">HOME</a>
+
+
+
+
+
+
+
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li class="nav-item">
+
+
+
+
+
+
+
+                                <a class="nav-link active" href="../../about-us/profile/en.php">ABOUT</a>
+
+
+
+
+
+
+
+                            </li>
+
+
+
+
+
+
+
+                            <li class="nav-item dropdown dropdown-mega position-static">
+
+
+
+
+
+
+
+                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside">YOUR NEEDS</a>
+
+
+
+
+
+
+
+                                <div class="dropdown-menu shadow">
+
+
+
+
+
+
+
+                                    <div class="mega-content">
+
+
+
+
+
+
+
+                                        <div class="container-fluid">
+
+
+
+
+
+
+
+                                            <div class="row menu-y-need">
+
+
+
+
+
+                                                <!--
+
+
+
+                    <div class="col-12 col-sm-4 col-md-3 py-4">
+
+
+
+
+
+
+
+                      <h5><?php echo $row['name']; ?>.</h5>
+
+
+
+
+
+
+
+                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as <?php echo $row['name']; ?> (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as <?php echo $row['name']; ?> Ltd.</p>
+
+
+
+
+
+
+
+                    </div>
+
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                <div class="col-sm-12 py-lg-4 py-0">
+
+
+
+
+
+
+
+                                                    <div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
+
+
+
+
+
+
+
+                                                            <div class="row sub-main mb-3">
+
+
+
+
+
+
+
+                                                                <div class="col-3 p-0 px-md-2">
+
+
+
+
+
+
+
+                                                                    <img class="w-100"
+                                                                        src="../../uploads/your_needs_en/YourNeedIcon1_1645451076.svg"
+                                                                        alt="yourNeeds">
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                                <div class="col-9">
+
+
+
+
+
+
+
+                                                                    <h5>Need A Leasing?</h5>
+
+
+
+
+
+
+
+                                                                    <a class="sub-links  "
+                                                                        href="../../your-needs/need-a-leasing/en.php">View</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                            </div>
+
+
+
+
+
+
+
+                                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
+
+
+
+
+
+
+
+                                                            <div class="row sub-main mb-3">
+
+
+
+
+
+
+
+                                                                <div class="col-3 p-0 px-md-2">
+
+
+
+
+
+
+
+                                                                    <img class="w-100"
+                                                                        src="../../uploads/your_needs_en/YourNeedIcon2_1652933172.svg"
+                                                                        alt="yourNeeds">
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                                <div class="col-9">
+
+
+
+
+
+
+
+                                                                    <h5>Need Urgent Cash?</h5>
+
+
+
+
+
+
+
+                                                                    <a class="sub-links  "
+                                                                        href="../../your-needs/need-urgent-cash/en.php">View</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                            </div>
+
+
+
+
+
+
+
+                                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
+
+
+
+
+
+
+
+                                                            <div class="row sub-main mb-3">
+
+
+
+
+
+
+
+                                                                <div class="col-3 p-0 px-md-2">
+
+
+
+
+
+
+
+                                                                    <img class="w-100"
+                                                                        src="../../uploads/your_needs_en/YourNeedIcon3_1645451215.svg"
+                                                                        alt="yourNeeds">
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                                <div class="col-9">
+
+
+
+
+
+
+
+                                                                    <h5>Saving For Future?</h5>
+
+
+
+
+
+
+
+                                                                    <a class="sub-links  "
+                                                                        href="../../your-needs/saving-for-future/en.php">View</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                            </div>
+
+
+
+
+
+
+
+                                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
+
+
+
+
+
+
+
+                                                            <div class="row sub-main mb-3">
+
+
+
+
+
+
+
+                                                                <div class="col-3 p-0 px-md-2">
+
+
+
+
+
+
+
+                                                                    <img class="w-100"
+                                                                        src="../../uploads/your_needs_en/YourNeedIcon4_1645451259.svg"
+                                                                        alt="yourNeeds">
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                                <div class="col-9">
+
+
+
+
+
+
+
+                                                                    <h5>Business Loan And More?</h5>
+
+
+
+
+
+
+
+                                                                    <a class="sub-links  "
+                                                                        href="../../your-needs/business-loan-and-more/en.php">View</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                            </div>
+
+
+
+
+
+
+
+                                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    </div>
+
+
+
+
+
+
+
+                                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            </div>
+
+
+
+
+
+
+
+                                        </div>
+
+
+
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+
+
+
+
+
+
+
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li class="nav-item dropdown dropdown-mega position-static">
+
+
+
+
+
+
+
+                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside">OUR SOLUTIONS</a>
+
+
+
+
+
+
+
+                                <div class="dropdown-menu shadow">
+
+
+
+
+
+
+
+                                    <div class="mega-content">
+
+
+
+
+
+
+
+                                        <div class="container-fluid">
+
+
+
+
+
+
+
+                                            <div class="row menu-y-need">
+
+
+
+
+
+                                                <!--
+
+
+
+                    <div class="col-12 col-sm-4 col-md-3 py-4">
+
+
+
+
+
+
+
+                      <h5><?php echo $row['name']; ?>.</h5>
+
+
+
+
+
+
+
+                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as <?php echo $row['name']; ?> (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as <?php echo $row['name']; ?> Ltd.</p>
+
+
+
+
+
+
+
+                    </div>
+
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                <!--<div class="col-sm-8 col-md-9 ">-->
+
+
+
+                                                <div class="col-sm-12 py-lg-4 py-0">
+
+
+
+
+
+
+
+                                                    <div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
+
+
+
+
+
+
+
+                                                            <div class="row sub-main mb-3">
+
+
+
+
+
+
+
+                                                                <div class="col-3 p-0 px-md-2">
+
+
+
+
+
+
+
+                                                                    <img class="w-100"
+                                                                        src="../../uploads/main_solution_icon_en/MainSolution1_1645451357.svg"
+                                                                        alt="solutions">
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                                <div class="col-9">
+
+
+
+
+
+
+
+                                                                    <h5>Deposits</h5>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    <a class="sub-links "
+                                                                        href="../../products/deposits/fixed-deposit/en.php">Funds
+                                                                        management</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                            </div>
+
+
+
+
+
+
+
+                                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
+
+
+
+
+
+
+
+                                                            <div class="row sub-main mb-3">
+
+
+
+
+
+
+
+                                                                <div class="col-3 p-0 px-md-2">
+
+
+
+
+
+
+
+                                                                    <img class="w-100"
+                                                                        src="../../uploads/main_solution_icon_en/MainSolution2_1645451419.svg"
+                                                                        alt="solutions">
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                                <div class="col-9">
+
+
+
+
+
+
+
+                                                                    <h5>Leasing &amp; Hire Purchase</h5>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    <a class="sub-links "
+                                                                        href="../../products/leasing-hire-purchase/venture/en.php">Venture
+                                                                        Capital</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    <a class="sub-links "
+                                                                        href="../../products/leasing-hire-purchase/vehicle-leasing/en.php">Vehicle
+                                                                        Leasing</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                            </div>
+
+
+
+
+
+
+
+                                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
+
+
+
+
+
+
+
+                                                            <div class="row sub-main mb-3">
+
+
+
+
+
+
+
+                                                                <div class="col-3 p-0 px-md-2">
+
+
+
+
+
+
+
+                                                                    <img class="w-100"
+                                                                        src="../../uploads/main_solution_icon_en/MainSolution3_1645451461.svg"
+                                                                        alt="solutions">
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                                <div class="col-9">
+
+
+
+
+
+
+
+                                                                    <h5>Loan</h5>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    <a class="sub-links "
+                                                                        href="../../products/loan/capital-investment-fund/en.php">Capital
+                                                                        Investment Fund</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    <a class="sub-links "
+                                                                        href="../../products/loan/start-up/en.php">Start
+                                                                        up Loans</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                            </div>
+
+
+
+
+
+
+
+                                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
+
+
+
+
+
+
+
+                                                            <div class="row sub-main mb-3">
+
+
+
+
+
+
+
+                                                                <div class="col-3 p-0 px-md-2">
+
+
+
+
+
+
+
+                                                                    <img class="w-100"
+                                                                        src="../../uploads/main_solution_icon_en/MainSolution4_1645451490.svg"
+                                                                        alt="solutions">
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                                <div class="col-9">
+
+
+
+
+
+
+
+                                                                    <h5>Microfinance</h5>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    <a class="sub-links "
+                                                                        href="../../products/microfinance/micro-loan/en.php">Debt
+                                                                        Refinance</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    <a class="sub-links "
+                                                                        href="../../products/microfinance/sme-loan/en.php">Personal Loans</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    <a class="sub-links "
+                                                                        href="../../products/microfinance/consumer-loan/en.php">Consumer
+                                                                        Loan</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                            </div>
+
+
+
+
+
+
+
+                                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
+
+
+
+
+
+
+
+                                                            <div class="row sub-main mb-3">
+
+
+
+
+
+
+
+                                                                <div class="col-3 p-0 px-md-2">
+
+
+
+
+
+
+
+                                                                    <img class="w-100"
+                                                                        src="../../uploads/main_solution_icon_en/MainSolution5_1645451523.svg"
+                                                                        alt="solutions">
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                                <div class="col-9">
+
+
+
+
+
+
+
+                                                                    <h5>Revolving Business Loan</h5>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    <a class="sub-links "
+                                                                        href="../../products/revolving-business-loan/revolving-business-loan/en.php">Revolving
+                                                                        Business Loan</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                </div>
+
+
+
+
+
+
+
+                                                            </div>
+
+
+
+
+
+
+
+                                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    </div>
+
+
+
+                                                </div>
+
+
+
+
+
+
+
+                                            </div>
+
+
+
+
+
+
+
+                                        </div>
+
+
+
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+
+
+
+
+
+
+
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li class="nav-item">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <a class="nav-link " href="../../help/downloads/annual-reports/en.php">TESTIMONIALS</a>
+
+
+
+
+
+
+
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <!--<li class="nav-item">-->
+                            <!--  <a class="nav-link " href="../../communicated/en">Communicate</a>-->
+                            <!--</li>-->
+
+
+
+
+
+
+                            <li class="nav-item">
+
+
+
+
+
+
+
+                                <a class="nav-link " href="../../contact-us/en.php">CONTACT US</a>
+
+
+
+
+
+
+
+                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="main-header-img">
+
+
+
+
+            <img class="w-100" src="../../storage/aboutus/profile/xYGnCgKEzfIGQPtoDTVtWuDpTqrESX9iJNUS2Xju.jpg"
+                alt="Breadcrumb Banner">
+
+
+            <div class="inner-topic">
+
+                <h3>Profile </h3>
+
+                <div class="bredcrumb">
+
+                    <a href="../../en.php">Home</a><i class="fas fa-chevron-right"></i> <a href="en.php">About</a>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="black-strip"></div>
 
         </div>
 
+        <div class="second-menu">
 
+            <div class="container">
 
-        <!--<div class="top_item login-button">-->
+                <div class="row py-3">
 
-        <!--  <a class="onlineBanking-links" href="#"><i class="fas fa-user-lock"></i> Login <i class="fas fa-caret-down"></i></a>-->
-        <!--  <ul class="login-dropdown">-->
-        <!--    <li><a target="_blank" href="online-banking-web/digital-online"><img src="https://xiteb.biz/projects/commercial-c-v-12/public/uploads/upby_rc/ccl-digital-banking.svg" alt="CCL Digital Banking"> CCL Digital Banking</a></li>-->
-        <!--    <li><a href="#"><img src="https://xiteb.biz/projects/commercial-c-v-12/public/uploads/upby_rc/download-ccl-wallet.svg" alt="Download CCL Wallet"> Download CCL Wallet</a></li>-->
-        <!--    <li><a href="#"><img src="https://xiteb.biz/projects/commercial-c-v-12/public/uploads/upby_rc/online-mobile-loan.svg" alt="Online Mobile Loan"> Online Mobile Loan</a></li>-->
-        <!--    <li><a href="#"><img src="https://xiteb.biz/projects/commercial-c-v-12/public/uploads/upby_rc/ccl-sales-portal.svg" alt="CCL Sale's Portal"> CCL Sale's Portal</a></li>-->
-        <!--  </ul>-->
+                    <ul class="ul-second">
 
-        <!--</div>-->
+                        <li class="nav-item-second">
 
+                            <a class="nav-link-second  active " href="#profile">
 
+                                <img src="../../frontend/img/icons/profile.svg" alt="Profile">
 
+                                Profile
 
+                            </a>
 
+                        </li>
 
 
-       
 
+                        <li class="nav-item-second">
 
+                            <a class="nav-link-second " href="#overview">
 
+                                <img src="../../frontend/img/icons/overview.svg" alt="Overview">
 
+                                Overview
 
+                            </a>
 
+                        </li>
 
 
 
+                        <li class="nav-item-second  ">
 
+                            <a class="nav-link-second " href="#history">
 
+                                <img src="../../frontend/img/icons/history.svg" alt="History">
 
+                                History
 
+                            </a>
 
+                        </li>
 
-      </div>
 
 
+                        <li class="nav-item-second  ">
 
+                            <a class="nav-link-second " href="#board">
 
+                                <img src="../../frontend/img/icons/team.svg" alt="Team">
 
+                                Board of Directors
 
+                            </a>
 
-      <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
+                        </li>
 
 
 
+                        <li class="nav-item-second">
 
+                            <a class="nav-link-second " href="#board">
 
+                                <img src="../../frontend/img/icons/Management.svg" alt="Management">
 
+                                Executive Managers
 
+                            </a>
 
+                        </li>
 
 
 
+                        <li class="nav-item-second">
 
+                            <a class="nav-link-second " href="#awards">
 
+                                <img src="../../frontend/img/icons/awards.svg" alt="Awards">
 
+                                Awards &amp; Achievements
 
-        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                            </a>
 
+                        </li>
 
 
 
+                        <li class="nav-item-second">
 
+                            <a class="nav-link-second " href="#values">
 
+                                <img src="../../frontend/img/icons/Culture.svg" alt="Culture">
 
-          <li class="nav-item">
+                                Culture &amp; Values
 
+                            </a>
 
+                        </li>
 
 
 
 
 
-            <a class="nav-link   " href="../../en.php">HOME</a>
+                    </ul>
 
+                </div>
 
+            </div>
 
+        </div>
 
+        <div class="mt-4">
 
+            <div class="container">
 
+                <h2 class="sub-page-topic py-3" id="profile">Profile</h2>
 
-          </li>
+                <div class="row">
 
-
-
-
-
-
-
-          
-
-
-
-
-
-
-
-          <li class="nav-item">
-
-
-
-
-
-
-
-            <a class="nav-link active" href="../../about-us/profile/en.php">ABOUT</a>
-
-
-
-
-
-
-
-          </li>
-
-
-
-
-
-
-
-          <li class="nav-item dropdown dropdown-mega position-static">
-
-
-
-
-
-
-
-            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">YOUR NEEDS</a>
-
-
-
-
-
-
-
-            <div class="dropdown-menu shadow">
-
-
-
-
-
-
-
-              <div class="mega-content">
-
-
-
-
-
-
-
-                <div class="container-fluid">
-
-
-
-
-
-
-
-                  <div class="row menu-y-need">
-
-
-
-
-
-<!--
-
-
-
-                    <div class="col-12 col-sm-4 col-md-3 py-4">
-
-
-
-
-
-
-
-                      <h5><?php echo $row['name']; ?>.</h5>
-
-
-
-
-
-
-
-                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as <?php echo $row['name']; ?> (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as <?php echo $row['name']; ?> Ltd.</p>
-
-
-
-
-
-
-
-                    </div>
-
-
-
--->
-
-
-
-
-
-                        
-
-
-
-
-
-
-                          
-
-
-
-
-
-
-
-                       <div class="col-sm-12 py-lg-4 py-0">
-
-
-
-
-
-
-
-                          <div class="row"> 
-
-
-
-
-
-
-
-                          
-
-
-
-
-
-
-                          <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
-
-
-
-
-
-
-
-                            <div class="row sub-main mb-3">
-
-
-
-
-
-
-
-                              <div class="col-3 p-0 px-md-2">
-
-
-
-
-
-
-
-                                <img class="w-100" src="../../uploads/your_needs_en/YourNeedIcon1_1645451076.svg" alt="yourNeeds">
-
-
-
-
-
-
-
-                              </div>
-
-
-
-
-
-
-
-                              <div class="col-9">
-
-
-
-
-
-
-
-                                <h5>Need A Leasing?</h5>
-
-
-
-
-
-
-
-                                <a class="sub-links  " href="../../your-needs/need-a-leasing/en.php">View</a>
-
-
-
-
-
-
-
-                                
-
-
-
-
-
-
-
-                              </div>
-
-
-
-
-
-
-
-                            </div>
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                          
-
-
-
-
-
-
-                          <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
-
-
-
-
-
-
-
-                            <div class="row sub-main mb-3">
-
-
-
-
-
-
-
-                              <div class="col-3 p-0 px-md-2">
-
-
-
-
-
-
-
-                                <img class="w-100" src="../../uploads/your_needs_en/YourNeedIcon2_1652933172.svg" alt="yourNeeds">
-
-
-
-
-
-
-
-                              </div>
-
-
-
-
-
-
-
-                              <div class="col-9">
-
-
-
-
-
-
-
-                                <h5>Need Urgent Cash?</h5>
-
-
-
-
-
-
-
-                                <a class="sub-links  " href="../../your-needs/need-urgent-cash/en.php">View</a>
-
-
-
-
-
-
-
-                                
-
-
-
-
-
-
-
-                              </div>
-
-
-
-
-
-
-
-                            </div>
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                          
-
-
-
-
-
-
-                          <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
-
-
-
-
-
-
-
-                            <div class="row sub-main mb-3">
-
-
-
-
-
-
-
-                              <div class="col-3 p-0 px-md-2">
-
-
-
-
-
-
-
-                                <img class="w-100" src="../../uploads/your_needs_en/YourNeedIcon3_1645451215.svg" alt="yourNeeds">
-
-
-
-
-
-
-
-                              </div>
-
-
-
-
-
-
-
-                              <div class="col-9">
-
-
-
-
-
-
-
-                                <h5>Saving For Future?</h5>
-
-
-
-
-
-
-
-                                <a class="sub-links  " href="../../your-needs/saving-for-future/en.php">View</a>
-
-
-
-
-
-
-
-                                
-
-
-
-
-
-
-
-                              </div>
-
-
-
-
-
-
-
-                            </div>
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                          
-
-
-
-
-
-
-                          <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
-
-
-
-
-
-
-
-                            <div class="row sub-main mb-3">
-
-
-
-
-
-
-
-                              <div class="col-3 p-0 px-md-2">
-
-
-
-
-
-
-
-                                <img class="w-100" src="../../uploads/your_needs_en/YourNeedIcon4_1645451259.svg" alt="yourNeeds">
-
-
-
-
-
-
-
-                              </div>
-
-
-
-
-
-
-
-                              <div class="col-9">
-
-
-
-
-
-
-
-                                <h5>Business Loan And More?</h5>
-
-
-
-
-
-
-
-                                <a class="sub-links  " href="../../your-needs/business-loan-and-more/en.php">View</a>
-
-
-
-
-
-
-
-                                
-
-
-
-
-
-
-
-                              </div>
-
-
-
-
-
-
-
-                            </div>
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                          
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  </div>
-
-
-
-
-
-
+                    <p><?php echo $row['name']; ?>, a well-established brand in the Financial Services Industry of
+                        <?php echo $row['country']; ?>, has been one of the most sought out financial service providers
+                        for the past decade. With its business acumen spreading over 19 years in the industry,
+                        <?php echo $row['name']; ?> offers a range of financial products that facilitates individuals
+                        and businesses in <?php echo $row['country']; ?>. A well-known brand for its excellence in
+                        promoting fair business practices and compassionate etiquette of dealing with its customers,
+                        <?php echo $row['name']; ?> is currently operating in multiple Locations wide. Its products,
+                        vehicle leasing, Start up Loans, Business Loans and Microfinance have assisted over 5 million
+                        customers in the country with their financial needs. Having designed its business operations
+                        keeping the end customer in mind, when you select <?php echo $row['name']; ?> as your financial
+                        service provider, you will be guaranteed to receive an unparalleled service of quality, speed
+                        and trust. Competitive interest rates, flexible repayment options, customised loan products and
+                        a win-win approach to its service offering has engraved the brand name of
+                        <?php echo $row['name']; ?> in the hearts of <?php echo $row['country']; ?> clients. Due to the
+                        trust strengthened every day, <?php echo $row['name']; ?> has won the hearts of investors in
+                        <?php echo $row['country']; ?> who place high preference on its deposit-based products. As an
+                        ever-growing company, <?php echo $row['name']; ?> will grow from strength to strength day by
+                        day, making its vision a reality. </p>
+                    <h4 class="colored-title">Purpose </h4>
+                    <p>To build leaders who uplift the lives of people by simple acts of love.<br></p>
 
                 </div>
 
 
 
+                <div class="row visionMission-Section pt-4">
 
+                    <div class="col-md-6 col-sm-12 mb-3 order-1" data-aos="fade-right" data-aos-offset="100"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
 
+                        <h4 class="colored-title">Vision</h4>
 
 
-              </div>
 
+                        <p>To be the most liberated Company admired for its people, partnership and
+                            performance.&nbsp;<br></p>
 
 
 
-
-
-
-            </div>
-
-
-
-
-
-
-
-          </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <li class="nav-item dropdown dropdown-mega position-static">
-
-
-
-
-
-
-
-            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">OUR SOLUTIONS</a>
-
-
-
-
-
-
-
-            <div class="dropdown-menu shadow">
-
-
-
-
-
-
-
-              <div class="mega-content">
-
-
-
-
-
-
-
-                <div class="container-fluid">
-
-
-
-
-
-
-
-                  <div class="row menu-y-need">
-
-
-
-
-
-<!--
-
-
-
-                    <div class="col-12 col-sm-4 col-md-3 py-4">
-
-
-
-
-
-
-
-                      <h5><?php echo $row['name']; ?>.</h5>
-
-
-
-
-
-
-
-                      <p><?php echo $row['name']; ?> was established on the 4th of October 1982 following its incorporation under the Companies Act No. 17 of 1982 as a Private Limited Liability Company in <?php echo $row['country']; ?>’s hill capital, Kandy, as <?php echo $row['name']; ?> (Pvt) Ltd. Subsequently, it was registered as a Public Limited Liability Company under the provisions of the above Act on the 16th of December 1989 as <?php echo $row['name']; ?> Ltd.</p>
-
-
-
-
+                        <!-- <img class="w-100" src="https://www.cclk.lk/storage/aboutus/overview/ZZUPssRY13o2C55GMGZwOjWG3hHdir3KJCRbZWVr.jpg"> -->
 
 
 
@@ -1203,706 +2398,15 @@ include('../../resources/config.php');
 
 
 
--->
+                    <div class="col-md-6 col-sm-12 mb-3 order-md-2 order-3" data-aos="fade-left" data-aos-offset="100"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
 
+                        <h4 class="colored-title">Mission</h4>
 
+                        <p>To be a dynamic Finance Company which develops and nurtures leaders at every level of the
+                            organization to serve society with passion.<br></p>
 
-
-
-                      
-
-
-
-
-
-
-                        
-
-
-
-
-
-
-
-<!--<div class="col-sm-8 col-md-9 ">-->
-
-
-
-                  <div class="col-sm-12 py-lg-4 py-0">
-
-
-
-
-
-
-
-                    <div class="row"> 
-
-
-
-
-
-
-
-                      
-
-
-
-
-
-
-                      <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
-
-
-
-
-
-
-
-                        <div class="row sub-main mb-3">
-
-
-
-
-
-
-
-                          <div class="col-3 p-0 px-md-2">
-
-
-
-
-
-
-
-                            <img class="w-100" src="../../uploads/main_solution_icon_en/MainSolution1_1645451357.svg" alt="solutions">
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                          <div class="col-9">
-
-
-
-
-
-
-
-                            <h5>Deposits</h5>
-
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-                              <a class="sub-links " href="../../products/deposits/fixed-deposit/en.php">Funds management</a>
-
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                        </div>
-
-
-
-
-
-
-
-                      </div>
-
-
-
-
-
-
-
-                      
-
-
-
-
-
-
-                      <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
-
-
-
-
-
-
-
-                        <div class="row sub-main mb-3">
-
-
-
-
-
-
-
-                          <div class="col-3 p-0 px-md-2">
-
-
-
-
-
-
-
-                            <img class="w-100" src="../../uploads/main_solution_icon_en/MainSolution2_1645451419.svg" alt="solutions">
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                          <div class="col-9">
-
-
-
-
-
-
-
-                            <h5>Leasing &amp; Hire Purchase</h5>
-
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-                              <a class="sub-links " href="../../products/leasing-hire-purchase/venture/en.php">Venture Capital</a>
-
-
-
-
-
-
-
-                            
-
-
-
-
- 
-
-
-
-
-                            
-
-
-
-
-
-
-                              <a class="sub-links " href="../../products/leasing-hire-purchase/vehicle-leasing/en.php">Vehicle Leasing</a>
-
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                        </div>
-
-
-
-
-
-
-
-                      </div>
-
-
-
-
-
-
-
-                      
-
-
-
-
-
-
-                      <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
-
-
-
-
-
-
-
-                        <div class="row sub-main mb-3">
-
-
-
-
-
-
-
-                          <div class="col-3 p-0 px-md-2">
-
-
-
-
-
-
-
-                            <img class="w-100" src="../../uploads/main_solution_icon_en/MainSolution3_1645451461.svg" alt="solutions">
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                          <div class="col-9">
-
-
-
-
-
-
-
-                            <h5>Loan</h5>
-
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-                              <a class="sub-links " href="../../products/loan/capital-investment-fund/en.php">Capital Investment Fund</a>
-
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-                              <a class="sub-links " href="../../products/loan/start-up/en.php">Start up Loans</a>
-
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                        </div>
-
-
-
-
-
-
-
-                      </div>
-
-
-
-
-
-
-
-                      
-
-
-
-
-
-
-                      <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
-
-
-
-
-
-
-
-                        <div class="row sub-main mb-3">
-
-
-
-
-
-
-
-                          <div class="col-3 p-0 px-md-2">
-
-
-
-
-
-
-
-                            <img class="w-100" src="../../uploads/main_solution_icon_en/MainSolution4_1645451490.svg" alt="solutions">
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                          <div class="col-9">
-
-
-
-
-
-
-
-                            <h5>Microfinance</h5>
-
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-                              <a class="sub-links " href="../../products/microfinance/micro-loan/en.php">Debt Refinance</a>
-
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-                              <a class="sub-links " href="../../products/microfinance/sme-loan/en.php">Personal Loans</a>
-
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-                              <a class="sub-links " href="../../products/microfinance/consumer-loan/en.php">Consumer Loan</a>
-
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                        </div>
-
-
-
-
-
-
-
-                      </div>
-
-
-
-
-
-
-
-                      
-
-
-
-
-
-
-                      <div class="col-sm-4 col-md-3 py-lg-4 py-2 seperation">
-
-
-
-
-
-
-
-                        <div class="row sub-main mb-3">
-
-
-
-
-
-
-
-                          <div class="col-3 p-0 px-md-2">
-
-
-
-
-
-
-
-                            <img class="w-100" src="../../uploads/main_solution_icon_en/MainSolution5_1645451523.svg" alt="solutions">
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                          <div class="col-9">
-
-
-
-
-
-
-
-                            <h5>Revolving Business Loan</h5>
-
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-                              <a class="sub-links " href="../../products/revolving-business-loan/revolving-business-loan/en.php">Revolving Business Loan</a>
-
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-                            
-
-
-
-
-
-
-
-                          </div>
-
-
-
-
-
-
-
-                        </div>
-
-
-
-
-
-
-
-                      </div>
-
-
-
-
-
-
-
-                      
-
-
-
+                        <!-- <img class="w-100" src="https://www.cclk.lk/storage/aboutus/overview/c1IN7UjjDxdDUjTx76etTM4RRBUsMOb6SwuLHYF7.jpg"> -->
 
 
 
@@ -1910,488 +2414,37 @@ include('../../resources/config.php');
 
 
 
-                  </div>
-
-
-
-
-
-
-
-                  </div>
-
-
-
-
-
-
-
-                </div>
-
-
-
-
-
-
-
-              </div>
-
-
-
-
-
-
-
-            </div>
-
-
-
-
-
-
-
-          </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <li class="nav-item">
-
-
-
-
-
-
-
-            
-
-
-
-
-
-
-            <a class="nav-link " href="../../help/downloads/annual-reports/en.php">TESTIMONIALS</a>
-
-
-
-
-
-
-
-          </li>
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-         
-          <!--<li class="nav-item">-->
-          <!--  <a class="nav-link " href="../../communicated/en">Communicate</a>-->
-          <!--</li>-->
-
-
-         
-
-
-
-          <li class="nav-item">
-
-
-
-
-
-
-
-            <a class="nav-link " href="../../contact-us/en.php">CONTACT US</a>
-
-
-
-
-
-
-
-          </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-
-
-
-
-
-
-
-          
-
-
-
-
-
-
-
-        </ul>
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-      </div>
-
-
-
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-  </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-<div class="main-header-img">
-
-  
-
-    
-    <img class="w-100" src="../../storage/aboutus/profile/xYGnCgKEzfIGQPtoDTVtWuDpTqrESX9iJNUS2Xju.jpg" alt="Breadcrumb Banner">
-
-    
-    <div class="inner-topic">
-
-      <h3>Profile </h3>
-
-      <div class="bredcrumb">
-
-        <a href="../../en.php">Home</a><i class="fas fa-chevron-right"></i> <a href="en.php">About</a>
-
-      </div>
-
-      
-
-    </div>
-
-    <div class="black-strip"></div>
-
-</div>
-
-<div class="second-menu">
-
-  <div class="container">
-
-    <div class="row py-3">
-
-    <ul class="ul-second">
-
-      <li class="nav-item-second">
-
-    <a class="nav-link-second  active " href="#profile">
-
-      <img src="../../frontend/img/icons/profile.svg" alt="Profile">
-
-      Profile
-
-    </a>
-
-  </li>
-
-
-
-  <li class="nav-item-second">
-
-    <a class="nav-link-second " href="#overview">
-
-      <img src="../../frontend/img/icons/overview.svg" alt="Overview">
-
-      Overview
-
-    </a>
-
-  </li>
-
-
-
-  <li class="nav-item-second  ">
-
-    <a class="nav-link-second " href="#history">
-
-      <img src="../../frontend/img/icons/history.svg" alt="History">
-
-      History
-
-    </a>
-
-  </li>
-
-
-
-  <li class="nav-item-second  ">
-
-    <a class="nav-link-second " href="#board">
-
-      <img src="../../frontend/img/icons/team.svg" alt="Team">
-
-      Board of Directors
-
-    </a>
-
-  </li>
-
-
-
-  <li class="nav-item-second">
-
-    <a class="nav-link-second " href="#board">
-
-      <img src="../../frontend/img/icons/Management.svg" alt="Management">
-
-      Executive Managers
-
-    </a>
-
-  </li>
-
-
-
-  <li class="nav-item-second">
-
-    <a class="nav-link-second " href="#awards">
-
-      <img src="../../frontend/img/icons/awards.svg" alt="Awards">
-
-      Awards &amp; Achievements
-
-    </a>
-
-  </li>
-
-
-
-  <li class="nav-item-second">
-
-    <a class="nav-link-second " href="#values">
-
-      <img src="../../frontend/img/icons/Culture.svg" alt="Culture">
-
-      Culture &amp; Values
-
-    </a>
-
-  </li>
-
-
-
-   
-
-    </ul>
-
-    </div>
-
-  </div>
-
-</div>
-
-<div class="mt-4">
-
-  <div class="container">
-
-  <h2 class="sub-page-topic py-3" id="profile">Profile</h2>
-  
-  <div class="row">
-
-      <p><?php echo $row['name']; ?>, a well-established brand in the Financial Services Industry of <?php echo $row['country']; ?>, has been one of the most sought out financial service providers for the past decade. With its business acumen spreading over 19 years in the industry, <?php echo $row['name']; ?> offers a range of financial products that facilitates individuals and businesses in <?php echo $row['country']; ?>. A well-known brand for its excellence in promoting fair business practices and compassionate etiquette of dealing with its customers, <?php echo $row['name']; ?> is currently operating in multiple Locations   wide. Its products, vehicle leasing, Start up Loans, Business Loans and Microfinance have assisted over 5 million customers in the country with their financial needs. Having designed its business operations keeping the end customer in mind, when you select <?php echo $row['name']; ?> as your financial service provider, you will be guaranteed to receive an unparalleled service of quality, speed and trust. Competitive interest rates, flexible repayment options, customised loan products and a win-win approach to its service offering has engraved the brand name of <?php echo $row['name']; ?> in the hearts of <?php echo $row['country']; ?> clients. Due to the trust strengthened every day, <?php echo $row['name']; ?> has won the hearts of investors in <?php echo $row['country']; ?> who place high preference on its deposit-based products. As an ever-growing company, <?php echo $row['name']; ?> will grow from strength to strength day by day, making its vision a reality. </p><h4 class="colored-title">Purpose </h4><p>To build leaders who uplift the lives of people by simple acts of love.<br></p>
-
-    </div>
-
-
-
-    <div class="row visionMission-Section pt-4">
-
-      <div class="col-md-6 col-sm-12 mb-3 order-1"
-                data-aos="fade-right"
-                data-aos-offset="100"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-once="true"
-              >
-
-      <h4 class="colored-title">Vision</h4>
-
-      
-
-        <p>To be the most liberated Company admired for its people, partnership and performance.&nbsp;<br></p>
-
-      
-
-          <!-- <img class="w-100" src="https://www.cclk.lk/storage/aboutus/overview/ZZUPssRY13o2C55GMGZwOjWG3hHdir3KJCRbZWVr.jpg"> -->
-
-
-
-      </div>
-
-
-
-      <div class="col-md-6 col-sm-12 mb-3 order-md-2 order-3"
-                data-aos="fade-left"
-                data-aos-offset="100"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-once="true"
-              >
-
-      <h4 class="colored-title">Mission</h4>
-
-      <p>To be a dynamic Finance Company which develops and nurtures leaders at every level of the 
-organization to serve society with passion.<br></p>
-
-          <!-- <img class="w-100" src="https://www.cclk.lk/storage/aboutus/overview/c1IN7UjjDxdDUjTx76etTM4RRBUsMOb6SwuLHYF7.jpg"> -->
-
-
-
-      </div>
-
-
-
-    <!-- </div>
+                    <!-- </div>
 
 
 
     <div class="row mt-4"> -->
 
-      <div class="col-md-6 col-sm-12 mb-3 order-md-3 order-2"
-                data-aos="fade-right"
-                data-aos-offset="100"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-once="true"
-              >
+                    <div class="col-md-6 col-sm-12 mb-3 order-md-3 order-2" data-aos="fade-right" data-aos-offset="100"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
 
-          <img class="w-100" src="../../storage/aboutus/overview/ZZUPssRY13o2C55GMGZwOjWG3hHdir3KJCRbZWVr.jpg" alt="Our Vision">
+                        <img class="w-100"
+                            src="../../storage/aboutus/overview/ZZUPssRY13o2C55GMGZwOjWG3hHdir3KJCRbZWVr.jpg"
+                            alt="Our Vision">
 
-      </div>
+                    </div>
 
-      <div class="col-md-6 col-sm-12 mb-3 order-4"
-                data-aos="fade-left"
-                data-aos-offset="100"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-once="true"
-              >
+                    <div class="col-md-6 col-sm-12 mb-3 order-4" data-aos="fade-left" data-aos-offset="100"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
 
-          <img class="w-100" src="../../storage/aboutus/overview/c1IN7UjjDxdDUjTx76etTM4RRBUsMOb6SwuLHYF7.jpg" alt="Our Mission">
+                        <img class="w-100"
+                            src="../../storage/aboutus/overview/c1IN7UjjDxdDUjTx76etTM4RRBUsMOb6SwuLHYF7.jpg"
+                            alt="Our Mission">
 
-      </div>
+                    </div>
 
 
 
-    </div>
+                </div>
 
 
-  <div class="row">
+                <div class="row">
 
-   
 
 
 
@@ -2400,177 +2453,187 @@ organization to serve society with passion.<br></p>
 
 
 
-                                  <div class="col-12">
 
-                                      <div class="table-responsive ">
-                                      <table class="table table-striped prfl-tble">
+                    <div class="col-12">
 
+                        <div class="table-responsive ">
+                            <table class="table table-striped prfl-tble">
 
 
-                                          <tbody>
 
-                                            
+                                <tbody>
 
-                                          <tr>
 
-                                              <th id="history">Legal Form</th>
 
-                                              
-                                              <td><?php echo $row['name']; ?> is a federal corporation in Guelph incorporated with Corporations <?php echo $row['country']; ?>, a division of Innovation, Science and Economic Development (ISED) <?php echo $row['country']; ?>. The entity was incorporated on March 5, 2004 with corporation #6176445.</td>
+                                    <tr>
 
-                                          </tr>
+                                        <th id="history">Legal Form</th>
 
-                                          <tr>
 
-                                              <th id="#overview">Business Registration Number (Under the Companies Act  )</th>
+                                        <td><?php echo $row['name']; ?> is incorporated in
+                                            <?php echo $row['country']; ?>. The entity was incorporated on March 5, 2004
+                                            with corporation #6176445.</td>
 
-                                              
-                                              <td>859430407RC0001</td>
+                                    </tr>
 
-                                          </tr>
+                                    <tr>
 
-                                          <tr>
+                                        <th id="#overview">Business Registration Number (Under the Companies Act )</th>
 
-                                              <th>Place of Incorporation</th>
 
-                                              
-                                              <td><?php echo $row['country']; ?></td>
+                                        <td>859430407RC0001</td>
 
-                                          </tr>
+                                    </tr>
 
-                                          <tr>
+                                    <tr>
 
-                                              <th>Registered Office</th>
+                                        <th>Place of Incorporation</th>
 
-                                              
-                                              <td><?php echo $row['addr']; ?></td>
 
-                                          </tr>
+                                        <td><?php echo $row['country']; ?></td>
 
-                                          <tr>
+                                    </tr>
 
-                                              <th>Telephone/Fax No</th>
+                                    <tr>
 
-                                              
-                                              <td><?php echo $row['phone']; ?></td>
+                                        <th>Registered Office</th>
 
-                                          </tr>
 
-                                       
+                                        <td><?php echo $row['addr']; ?></td>
 
-                                          <tr>
+                                    </tr>
 
-                                              <th>E-mail </th>
+                                    <tr>
 
-                                              
-                                              <td><a href="mailto:<?php echo $row['email']; ?>"><?php echo $row['email']; ?></a></td>
+                                        <th>Telephone/Fax No</th>
 
-                                          </tr>
 
-                                          <tr>
+                                        <td><?php echo $row['phone']; ?></td>
 
-                                              <th>Website </th>
+                                    </tr>
 
-                                              
-                                              <td><?php echo $row['url']; ?></td>
 
-                                          </tr>
 
-    
-                                          <tr>
+                                    <tr>
 
-                                              <th id="board">Chairman</th>
-                                              <td>Mr. G.B. Bramer</td>
-                                          </tr>
+                                        <th>E-mail </th>
 
-                                          <tr>
-                                              <th>Chief Executive Officer</th>
-                                              <td>MERIDITH IRENE NODWELL</td>
-                                          </tr>
 
-                                          
-                                          <tr>
-                                              <th rowspan="10">Board of Directors</th>
-                                              <td>BRETT SINCLAIR NODWELL (Chief Executive Director)</td>
-                                          </tr>
+                                        <td><a
+                                                href="mailto:<?php echo $row['email']; ?>"><?php echo $row['email']; ?></a>
+                                        </td>
 
-                                          <tr>
-                                              <td>JAY ELINESKY (Executive  Vice President)</td>
-                                          </tr>
+                                    </tr>
 
-                                          <tr>
-                                              <td>LISA GAZZOLA (Chief Operating Officer)</td>
+                                    <tr>
 
-                                          </tr>
-                                          <tr>
-                                              <td>STEVEN BEKROPOULOS (Mediator & Loan Officer)</td>
+                                        <th>Website </th>
 
-                                          </tr>
-  
-                                          
 
-                                          
- 
-                                      </tbody></table>
-                                    </div>
+                                        <td><?php echo $row['url']; ?></td>
 
-                                  </div>
+                                    </tr>
 
 
+                                    <tr>
 
+                                        <th id="board">Chairman</th>
+                                        <td>Mr. G.B. Bramer</td>
+                                    </tr>
 
+                                    <tr>
+                                        <th>Chief Executive Officer</th>
+                                        <td>MERIDITH IRENE NODWELL</td>
+                                    </tr>
 
-                              </div>
 
-  </div>
+                                    <tr>
+                                        <th rowspan="10">Board of Directors</th>
+                                        <td>BRETT SINCLAIR NODWELL (Chief Executive Director)</td>
+                                    </tr>
 
+                                    <tr>
+                                        <td>JAY ELINESKY (Executive Vice President)</td>
+                                    </tr>
 
+                                    <tr>
+                                        <td>LISA GAZZOLA (Chief Operating Officer)</td>
 
-  </div>
+                                    </tr>
+                                    <tr>
+                                        <td>STEVEN BEKROPOULOS (Mediator & Loan Officer)</td>
 
+                                    </tr>
 
 
 
-    <!-- ======= Footer ======= -->
 
-<footer id="footer">
 
+                                </tbody>
+                            </table>
+                        </div>
 
+                    </div>
 
-    
 
-    <div class="footer-top">
 
-      <div class="container">
 
-        <div class="row">
 
-    
-
-          <div class="col-lg-3 col-md-12 footer-contact">
-
-            <div class="w-100 text-center">
-
-              <a class="log_a d-block" href="../../en.php"><img class="logo" src="../../frontend/img/black_english_logo.png" alt="logo"></a>
+                </div>
 
             </div>
 
-            <p class="pt-2">
 
-              <?php echo $row['name']; ?>, a well-established brand in the Financial Services Industry of <?php echo $row['country']; ?>, has been one of the most sorted out financial service providers for the past decade.
 
-              
+        </div>
 
-            </p><div class="row social-media">
 
-          <div class="col-md-12 socil-links text-center">
 
-            <div class="socil-links-m align-items-center">
 
-                <p class="s-mdeia">Join Our Community</p>
+        <!-- ======= Footer ======= -->
 
-                <div class="socil-icons">
- <!--
+        <footer id="footer">
+
+
+
+
+
+            <div class="footer-top">
+
+                <div class="container">
+
+                    <div class="row">
+
+
+
+                        <div class="col-lg-3 col-md-12 footer-contact">
+
+                            <div class="w-100 text-center">
+
+                                <a class="log_a d-block" href="../../en.php"><img class="logo"
+                                        src="../../frontend/img/black_english_logo.png" alt="logo"></a>
+
+                            </div>
+
+                            <p class="pt-2">
+
+                                <?php echo $row['name']; ?>, a well-established brand in the Financial Services Industry
+                                of <?php echo $row['country']; ?>, has been one of the most sorted out financial service
+                                providers for the past decade.
+
+
+
+                            </p>
+                            <div class="row social-media">
+
+                                <div class="col-md-12 socil-links text-center">
+
+                                    <div class="socil-links-m align-items-center">
+
+                                        <p class="s-mdeia">Join Our Community</p>
+
+                                        <div class="socil-icons">
+                                            <!--
                   <a target="_blank" href="#https://www.facebook.com/comcreditlk/"><i class="fab fa-facebook-f"></i></a>
 
                   <a target="_blank" href="#https://www.instagram.com/commercialcredit_/"><i class="fab fa-instagram"></i></a>
@@ -2583,165 +2646,180 @@ organization to serve society with passion.<br></p>
 
                   <a target="_blank" href="#"><i class="fab fa-whatsapp"></i></a> -->
 
-  
-
-  
-
-                </div>
-
-              </div>
-
-              
-
-          </div>
-
-        </div>
-
-        
-
-          </div>
-
-    
-
-          <div class="col-lg-3 col-md-4 col-sm-6 footer-links useful">
-
-            <h4>Useful Links</h4>
-
-            <ul>
-
-              <li><i class="fas fa-chevron-right"></i> <a href="../../en.php">Home</a></li>
-
-              <li><i class="fas fa-chevron-right"></i> <a href="../../about-us/profile/en.php">About</a></li>
-
-              
-              
-              
-
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../about-us/careers/en.php">Careers</a></li>
-
-                    
-
-              <li><i class="fas fa-chevron-right"></i> <a href="../../terms-and-condtion/en.php">Terms of Services</a></li>
-
-              <li><i class="fas fa-chevron-right"></i> <a href="../../privacy-policy/en.php">Privacy Policy</a></li>
-
-            </ul>
-
-          </div>
-
-    
-
-          <div class="col-lg-3 col-md-4 col-sm-6 footer-links solu">
-
-            <h4>Solutions</h4>
-
-            <ul>
-
-              
-                
-                
-
-                
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../products/deposits/fixed-deposit/en.php">Funds management</a></li> 
-
-                
-                
-              
-                
-                
-
-                
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../products/leasing-hire-purchase/venture/en.php">Venture Capital</a></li> 
-
-                
-                
-                
-
-                
-                
-                
-
-                
-                
-              
-                
-                
-
-                
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../products/loan/capital-investment-fund/en.php">Capital Investment Fund</a></li> 
-
-                
-                
-                
-
-                
-                
-              
-                
-                
-
-                
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../products/microfinance/micro-loan/en.php">Debt Refinance</a></li> 
-
-                
-                
-                
-
-                
-                
-                
-
-                
-                
-              
-                
-                
-
-                
-                  <li><i class="fas fa-chevron-right"></i> <a href="../../products/revolving-business-loan/revolving-business-loan/en.php">Revolving Business Loan</a></li> 
-
-                
-                
-              
-            </ul>
-
-          </div>
-
-    
-
-          <div class="col-lg-3 col-md-4 footer-links contact">
-
-            <h4>Contacts </h4>
-
-            <ul>
-
-               <li><i class="fas fa-phone-alt"></i> <a href="tel:<?php echo $row['phone']; ?>"> <?php echo $row['phone']; ?> </a></li>
 
 
 
-                <li><i class="far fa-envelope-open"></i><a href="mailTo:<?php echo $row['email']; ?>"><span><?php echo $row['email']; ?></span></a></li>
 
-              <!--<li><i class="fas fa-map-marker-alt"></i> <a href="#"><?php echo $row['name']; ?>-->
+                                        </div>
 
-              <!--  No.165 Kynsey Rd, Borella,<br>-->
+                                    </div>
 
-              <!--  Colombo 08,<?php echo $row['country']; ?> <br></a></li>-->
 
-                <li><i class="fas fa-map-marker-alt"></i> <a target="_blank" href="#">
 
-                  <?php echo $row['name']; ?><br />
- 
-<?php echo $row['addr']; ?>, <?php echo $row['country']; ?>
+                                </div>
 
-                  
+                            </div>
 
-              </a></li>
 
-             
 
-            </ul>
+                        </div>
 
-            <!-- <p>
+
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 footer-links useful">
+
+                            <h4>Useful Links</h4>
+
+                            <ul>
+
+                                <li><i class="fas fa-chevron-right"></i> <a href="../../en.php">Home</a></li>
+
+                                <li><i class="fas fa-chevron-right"></i> <a
+                                        href="../../about-us/profile/en.php">About</a></li>
+
+
+
+
+
+                                <li><i class="fas fa-chevron-right"></i> <a
+                                        href="../../about-us/careers/en.php">Careers</a></li>
+
+
+
+                                <li><i class="fas fa-chevron-right"></i> <a href="../../terms-and-condtion/en.php">Terms
+                                        of Services</a></li>
+
+                                <li><i class="fas fa-chevron-right"></i> <a href="../../privacy-policy/en.php">Privacy
+                                        Policy</a></li>
+
+                            </ul>
+
+                        </div>
+
+
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 footer-links solu">
+
+                            <h4>Solutions</h4>
+
+                            <ul>
+
+
+
+
+
+
+                                <li><i class="fas fa-chevron-right"></i> <a
+                                        href="../../products/deposits/fixed-deposit/en.php">Funds management</a></li>
+
+
+
+
+
+
+
+
+                                <li><i class="fas fa-chevron-right"></i> <a
+                                        href="../../products/leasing-hire-purchase/venture/en.php">Venture Capital</a>
+                                </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <li><i class="fas fa-chevron-right"></i> <a
+                                        href="../../products/loan/capital-investment-fund/en.php">Capital Investment
+                                        Fund</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+                                <li><i class="fas fa-chevron-right"></i> <a
+                                        href="../../products/microfinance/micro-loan/en.php">Debt Refinance</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <li><i class="fas fa-chevron-right"></i> <a
+                                        href="../../products/revolving-business-loan/revolving-business-loan/en.php">Revolving
+                                        Business Loan</a></li>
+
+
+
+
+                            </ul>
+
+                        </div>
+
+
+
+                        <div class="col-lg-3 col-md-4 footer-links contact">
+
+                            <h4>Contacts </h4>
+
+                            <ul>
+
+                                <li><i class="fas fa-phone-alt"></i> <a href="tel:<?php echo $row['phone']; ?>">
+                                        <?php echo $row['phone']; ?> </a></li>
+
+
+
+                                <li><i class="far fa-envelope-open"></i><a
+                                        href="mailTo:<?php echo $row['email']; ?>"><span><?php echo $row['email']; ?></span></a>
+                                </li>
+
+                                <!--<li><i class="fas fa-map-marker-alt"></i> <a href="#"><?php echo $row['name']; ?>-->
+
+                                <!--  No.165 Kynsey Rd, Borella,<br>-->
+
+                                <!--  Colombo 08,<?php echo $row['country']; ?> <br></a></li>-->
+
+                                <li><i class="fas fa-map-marker-alt"></i> <a target="_blank" href="#">
+
+                                        <?php echo $row['name']; ?><br />
+
+                                        <?php echo $row['addr']; ?>, <?php echo $row['country']; ?>
+
+
+
+                                    </a></li>
+
+
+
+                            </ul>
+
+                            <!-- <p>
 
               <strong><i class="fas fa-mobile-alt"></i></strong> <?php echo $row['phone']; ?><br>
 
@@ -2759,7 +2837,7 @@ organization to serve society with passion.<br></p>
 
              </p> -->
 
-            <!-- <div class="social-links mt-3">
+                            <!-- <div class="social-links mt-3">
 
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
 
@@ -2773,45 +2851,49 @@ organization to serve society with passion.<br></p>
 
             </div> -->
 
-              
 
-            <br>
 
-            <form class="subscriptionForm" id="subscriptionForm" action="contact/subscribe" method="POST" autocomplete="off"> 
+                            <br>
 
-            <input type="hidden" name="_token" value=" ">
-            <div class="input-group">
+                            <form class="subscriptionForm" id="subscriptionForm" action="contact/subscribe"
+                                method="POST" autocomplete="off">
 
-                <input type="email" required name="subscribe_email" value="" class="form-control" placeholder="Your E-mail" aria-label="Your Email" aria-describedby="button-addon2">
+                                <input type="hidden" name="_token" value=" ">
+                                <div class="input-group">
 
-                <div class="input-group-append">
+                                    <input type="email" required name="subscribe_email" value="" class="form-control"
+                                        placeholder="Your E-mail" aria-label="Your Email"
+                                        aria-describedby="button-addon2">
 
-                  <button class="btn footer-btn" type="submit" id="button-addon2"> Subscribe </button>
+                                    <div class="input-group-append">
 
-                </div>
+                                        <button class="btn footer-btn" type="submit" id="button-addon2"> Subscribe
+                                        </button>
 
-              </div>
+                                    </div>
 
-              
+                                </div>
 
-              
-            </form>
 
-          </div>
 
-    
 
-        </div>
+                            </form>
 
-          <div class="col-md-12 disclaimer">
+                        </div>
 
-            <small class="d-block text-center text-light"><?php echo $row['footer']; ?></small>
 
-          </div>
 
-  
+                    </div>
 
-        <!-- <div class="row social-media">
+                    <div class="col-md-12 disclaimer">
+
+                        <small class="d-block text-center text-light"><?php echo $row['footer']; ?></small>
+
+                    </div>
+
+
+
+                    <!-- <div class="row social-media">
 
           <div class="col-md-12 socil-links text-center">
 
@@ -2847,197 +2929,198 @@ organization to serve society with passion.<br></p>
 
         </div> -->
 
-  
 
-      </div>
 
-      
-
-    </div>
-
-    <div class="botombar text-white">
-
-    <div class="container py-2"><div class="row">
-
-      <div class="col-md-8 copyright">
-
-       
-
-        &copy; Copyright <strong><span><?php echo $row['name']; ?></span></strong>. All Rights Reserved
-
-      </div>
-
-      <div class="col-md-4 credits">
-
-      
-
-         <!--<a href="#">Privacy Policy </a> | <a href="#">Terms & Condition </a>-->
-
-         
+                </div>
 
 
 
-         <a href="../../privacy-policy/en.php">Privacy Policy </a> | <a href="../../terms-and-condtion/en.php">Terms of Services </a>
+            </div>
 
-          
-      </div>
+            <div class="botombar text-white">
 
-    </div></div>
+                <div class="container py-2">
+                    <div class="row">
 
-    </div>
+                        <div class="col-md-8 copyright">
 
-    </footer><!-- End Footer -->
 
-    <div id="preloader"></div>
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+                            &copy; Copyright <strong><span><?php echo $row['name']; ?></span></strong>. All Rights
+                            Reserved
 
-  <!-- partial -->
+                        </div>
 
-    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../../frontend/js/bootstrap.bundle.min.js"></script>
+                        <div class="col-md-4 credits">
 
-    <script  src="../../frontend/js/script.js"></script>
 
-    <script>
 
+                            <!--<a href="#">Privacy Policy </a> | <a href="#">Terms & Condition </a>-->
+
+
+
+
+
+                            <a href="../../privacy-policy/en.php">Privacy Policy </a> | <a
+                                href="../../terms-and-condtion/en.php">Terms of Services </a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </footer><!-- End Footer -->
+
+        <div id="preloader"></div>
+
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+                class="bi bi-arrow-up-short"></i></a>
+
+        <!-- partial -->
+
+        <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script src="../../frontend/js/bootstrap.bundle.min.js"></script>
+
+        <script src="../../frontend/js/script.js"></script>
+
+        <script>
         var url = window.location.href;
 
-        var subUrl = url.substring(0,url.lastIndexOf("index.php"));
+        var subUrl = url.substring(0, url.lastIndexOf("index.php"));
 
 
 
-        document.getElementById("translate-english").href = subUrl+'/en';
+        document.getElementById("translate-english").href = subUrl + '/en';
 
-        document.getElementById("translate-sinhala").href = subUrl+'/si';
+        document.getElementById("translate-sinhala").href = subUrl + '/si';
 
-        document.getElementById("translate-tamil").href = subUrl+'/ta';
-
-        
-
+        document.getElementById("translate-tamil").href = subUrl + '/ta';
+        </script>
 
 
+
+
+        <script src="../../frontend/js/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+
+        <script>
+        $(document).ready(function() {
+
+            $("#solutio-slider").owlCarousel({
+
+                items: 3,
+
+                navigation: true,
+
+                navigationText: ["", ""],
+
+                autoPlay: true
+
+            });
+
+        });
+        </script>
+
+        <script>
+        $(document).ready(function() {
+
+
+
+            // Gets the video src from the data-src on each button
+
+
+
+            var $videoSrc;
+
+            $('.abt_img').click(function() {
+
+                $videoSrc = $(this).data("src");
+
+            });
+
+            console.log($videoSrc);
+
+
+
+
+
+
+
+            // when the modal is opened autoplay it  
+
+            $('#ytModal').on('shown.bs.modal', function(e) {
+
+
+
+                // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+
+                // $("#video").attr('src',$videoSrc + "&modestbranding=1&showinfo=0" );
+                $("#video").attr('src', $videoSrc +
+                    "?autoplay=1&mute=1&modestbranding=1&showinfo=0&rel=0&origin=http://cclk.lk");
+
+            })
+
+
+
+
+
+
+
+            // stop playing the youtube video when I close the modal
+
+            $('#ytModal').on('hide.bs.modal', function(e) {
+
+                // a poor man's stop video
+
+                $("#video").attr('src', $videoSrc);
+
+            })
+
+
+
+
+
+
+
+
+
+
+
+
+
+            // document ready  
+
+        });
+        </script>
+
+
+
+    </body>
+
+
+    <!-- Mirrored from www/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jun 2023 03:20:13 GMT -->
+    <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/<?php echo $row['tawk']; ?>';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
     </script>
+    <!--End of Tawk.to Script-->
+    </body>
 
+    <!-- Mirrored from <?php echo $row['url']; ?>/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Sep 2021 16:26:18 GMT -->
 
-
-
-    <script src="../../frontend/js/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-    
-<script>
-
-    $(document).ready(function () {
-
-      $("#solutio-slider").owlCarousel({
-
-        items: 3,
-
-        navigation: true,
-
-        navigationText: ["", ""],
-
-        autoPlay: true
-
-      });
-
-    });
-
-    </script>
-
-    <script>
-
-      $(document).ready(function() {
-
-
-
-// Gets the video src from the data-src on each button
-
-
-
-var $videoSrc;  
-
-$('.abt_img').click(function() {
-
-    $videoSrc = $(this).data( "src" );
-
-});
-
-console.log($videoSrc);
-
-
-
-  
-
-  
-
-// when the modal is opened autoplay it  
-
-$('#ytModal').on('shown.bs.modal', function (e) {
-
-    
-
-// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-
-// $("#video").attr('src',$videoSrc + "&modestbranding=1&showinfo=0" );
-$("#video").attr('src',$videoSrc + "?autoplay=1&mute=1&modestbranding=1&showinfo=0&rel=0&origin=http://cclk.lk" ); 
-
-})
-
-  
-
-
-
-
-
-// stop playing the youtube video when I close the modal
-
-$('#ytModal').on('hide.bs.modal', function (e) {
-
-    // a poor man's stop video
-
-    $("#video").attr('src',$videoSrc); 
-
-}) 
-
-    
-
-    
-
-
-
-
-
-  
-
-  
-
-// document ready  
-
-});
-
-</script> 
-
-
-   
-</body>
-
-
-<!-- Mirrored from www/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jun 2023 03:20:13 GMT -->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/<?php echo $row['tawk']; ?>';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script--></body>
-
-<!-- Mirrored from <?php echo $row['url']; ?>/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Sep 2021 16:26:18 GMT -->
 </html>
 <?php } ?>
